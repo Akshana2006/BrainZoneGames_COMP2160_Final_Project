@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary brand colours -->
+    <color name="purple_primary">#6C63FF</color>
+    <color name="purple_dark">#4A42D6</color>
+    <color name="purple_light">#9D97FF</color>
+
+    <!-- Accent colours -->
+    <color name="pink_accent">#FF6B9D</color>
+    <color name="yellow_accent">#FFD93D</color>
+    <color name="cyan_accent">#43E8D8</color>
+
+    <!-- Game feedback -->
+    <color name="green_correct">#4CAF50</color>
+    <color name="red_wrong">#F44336</color>
+    <color name="orange_timer">#FF9800</color>
+
+    <!-- Leaderboard ranks -->
+    <color name="gold">#FFD700</color>
+    <color name="silver">#C0C0C0</color>
+    <color name="bronze">#CD7F32</color>
+
+    <!-- Neutrals -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray_light">#F5F5F5</color>
+    <color name="gray_medium">#BDBDBD</color>
+    <color name="gray_text">#757575</color>
+    <color name="overlay">#80000000</color>
+
+    <!-- Card colours -->
+    <color name="card_back_color">#6C63FF</color>
+    <color name="card_matched_color">#4CAF50</color>
+
+    <!-- Status bar / nav bar -->
+    <color name="purple_700">#3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+    <!-- Gradient colours -->
+    <color name="gradient_game_start">#6C63FF</color>
+    <color name="gradient_game_end">#4A42D6</color>
+</resources>

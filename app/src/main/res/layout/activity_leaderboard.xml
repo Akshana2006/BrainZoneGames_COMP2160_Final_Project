@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LeaderboardActivity – Sections with RecyclerViews (Lecture 11) -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/gray_light">
+
+    <!-- Header -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient_header"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingTop="40dp"
+        android:paddingBottom="20dp"
+        android:paddingStart="@dimen/screen_padding"
+        android:paddingEnd="@dimen/screen_padding">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/leaderboard_title"
+            android:textSize="@dimen/text_xlarge"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnClearAll"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/btn_height_small"
+            android:text="@string/btn_clear"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_small"
+            android:background="@drawable/btn_danger" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/screen_padding">
+
+            <!-- ── Multiplication Puzzle ───────────────────────────────────── -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/section_mult"
+                android:textSize="@dimen/text_large"
+                android:textColor="@color/purple_primary"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:id="@+id/tvNoMult"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/no_scores_yet"
+                android:textSize="@dimen/text_normal"
+                android:textColor="@color/gray_text"
+                android:gravity="center"
+                android:padding="12dp"
+                android:visibility="gone" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvMultiplication"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/section_card_bg"
+                android:layout_marginBottom="20dp"
+                android:nestedScrollingEnabled="false" />
+
+            <!-- ── Memory Match ────────────────────────────────────────────── -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/section_mem"
+                android:textSize="@dimen/text_large"
+                android:textColor="@color/purple_primary"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:id="@+id/tvNoMem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/no_scores_yet"
+                android:textSize="@dimen/text_normal"
+                android:textColor="@color/gray_text"
+                android:gravity="center"
+                android:padding="12dp"
+                android:visibility="gone" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvMemory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/section_card_bg"
+                android:layout_marginBottom="20dp"
+                android:nestedScrollingEnabled="false" />
+
+            <!-- ── Word Scramble ──────────────────────────────────────────── -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/section_scr"
+                android:textSize="@dimen/text_large"
+                android:textColor="@color/purple_primary"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:id="@+id/tvNoScr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/no_scores_yet"
+                android:textSize="@dimen/text_normal"
+                android:textColor="@color/gray_text"
+                android:gravity="center"
+                android:padding="12dp"
+                android:visibility="gone" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvScramble"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/section_card_bg"
+                android:layout_marginBottom="20dp"
+                android:nestedScrollingEnabled="false" />
+
+            <Button
+                android:id="@+id/btnBack"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/btn_height"
+                android:text="@string/btn_back"
+                android:textColor="@color/purple_primary"
+                android:textSize="@dimen/text_medium"
+                android:textStyle="bold"
+                android:background="@drawable/btn_secondary" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

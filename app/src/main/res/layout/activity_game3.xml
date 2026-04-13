@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Game3Activity – Word Scramble layout (Lecture 6 LinearLayout) -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/gray_light">
+
+    <!-- Header -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient_header"
+        android:orientation="vertical"
+        android:paddingTop="40dp"
+        android:paddingBottom="20dp"
+        android:paddingStart="@dimen/screen_padding"
+        android:paddingEnd="@dimen/screen_padding">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/game3_title"
+            android:textSize="@dimen/text_xlarge"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:id="@+id/tvWordNum"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/word_num"
+                android:textSize="@dimen/text_normal"
+                android:textColor="#CCffffff" />
+
+            <TextView
+                android:id="@+id/tvScore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/score_label"
+                android:textSize="@dimen/text_normal"
+                android:textColor="@color/yellow_accent"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Timer progress bar -->
+    <ProgressBar
+        android:id="@+id/pbTimer"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:progressTint="@color/pink_accent"
+        android:progressBackgroundTint="@color/gray_medium"
+        android:max="30"
+        android:progress="30" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/screen_padding"
+            android:gravity="center_horizontal">
+
+            <!-- Timer and attempts row -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="16dp">
+
+                <TextView
+                    android:id="@+id/tvTimer"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/timer_label"
+                    android:textSize="@dimen/text_large"
+                    android:textColor="@color/orange_timer"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvAttempts"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/attempts_left"
+                    android:textSize="@dimen/text_large"
+                    android:textColor="@color/red_wrong"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <!-- Category label -->
+            <TextView
+                android:id="@+id/tvCategory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/category_label"
+                android:textSize="@dimen/text_medium"
+                android:textColor="@color/purple_primary"
+                android:textStyle="bold"
+                android:background="@drawable/section_card_bg"
+                android:padding="8dp"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Scrambled word display -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                app:cardElevation="@dimen/card_elevation"
+                xmlns:app="http://schemas.android.com/apk/res-auto">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/gradient_bg"
+                    android:gravity="center"
+                    android:padding="28dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/unscramble_prompt"
+                        android:textSize="@dimen/text_normal"
+                        android:textColor="#CCffffff"
+                        android:layout_marginEnd="8dp" />
+
+                    <TextView
+                        android:id="@+id/tvScrambled"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="LPPAEE"
+                        android:textSize="32sp"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:letterSpacing="0.2" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Hint letter reveal -->
+            <TextView
+                android:id="@+id/tvHintLetter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="@dimen/text_medium"
+                android:textColor="@color/yellow_accent"
+                android:textStyle="bold"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Answer input (EditText – Lecture 7) -->
+            <EditText
+                android:id="@+id/etAnswer"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/btn_height"
+                android:hint="Type your answer…"
+                android:textSize="@dimen/text_large"
+                android:inputType="text|textCapCharacters"
+                android:gravity="center"
+                android:background="@drawable/edittext_border"
+                android:padding="12dp"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Submit and Hint row -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <Button
+                    android:id="@+id/btnHint"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/btn_height"
+                    android:layout_weight="1"
+                    android:text="@string/btn_hint"
+                    android:textColor="@color/purple_primary"
+                    android:textSize="@dimen/text_normal"
+                    android:textStyle="bold"
+                    android:background="@drawable/btn_secondary"
+                    android:layout_marginEnd="8dp" />
+
+                <Button
+                    android:id="@+id/btnSubmit"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/btn_height"
+                    android:layout_weight="1"
+                    android:text="@string/btn_submit"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:background="@drawable/btn_rounded"
+                    android:layout_marginStart="8dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

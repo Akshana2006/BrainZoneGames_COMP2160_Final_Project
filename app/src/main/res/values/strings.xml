@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">BrainZone</string>
+    <string name="app_tagline">Train Your Brain, Beat Your Best!</string>
+
+    <!-- Splash -->
+    <string name="hint_enter_name">Your name…</string>
+    <string name="dialog_welcome_title">Welcome to BrainZone!</string>
+    <string name="dialog_welcome_msg">What should we call you?</string>
+    <string name="btn_lets_go">Let\'s Go!</string>
+
+    <!-- Main Menu -->
+    <string name="welcome_message">Welcome, %1$s! 👋</string>
+    <string name="all_time_high">🏆 All-Time High: %1$d pts</string>
+    <string name="btn_game1">🔢 Multiplication Puzzle</string>
+    <string name="btn_game2">🃏 Memory Match</string>
+    <string name="btn_game3">🔤 Word Scramble</string>
+    <string name="btn_leaderboard">🏅 Leaderboard</string>
+    <string name="btn_settings">⚙️ Settings</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="label_music">Background Music</string>
+    <string name="label_sfx">Sound Effects</string>
+    <string name="label_difficulty">Difficulty</string>
+    <string name="rb_easy">Easy</string>
+    <string name="rb_medium">Medium</string>
+    <string name="rb_hard">Hard</string>
+    <string name="btn_reset_scores">Reset All Scores</string>
+    <string name="difficulty_set">Difficulty set to %1$s</string>
+    <string name="scores_cleared">All scores have been cleared.</string>
+
+    <!-- Leaderboard -->
+    <string name="leaderboard_title">Leaderboard</string>
+    <string name="section_mult">🔢 Multiplication Puzzle</string>
+    <string name="section_mem">🃏 Memory Match</string>
+    <string name="section_scr">🔤 Word Scramble</string>
+    <string name="btn_clear_all">Clear All Scores</string>
+    <string name="no_scores_yet">No scores yet — be the first!</string>
+    <string name="header_rank">Rank</string>
+    <string name="header_name">Player</string>
+    <string name="header_score">Score</string>
+    <string name="header_diff">Level</string>
+
+    <!-- Game shared -->
+    <string name="score_label">Score: %1$d</string>
+    <string name="timer_label">⏱ %1$d s</string>
+    <string name="game_paused">⏸ Game paused</string>
+    <string name="enter_answer">Please enter your answer!</string>
+    <string name="invalid_number">Please enter a valid number.</string>
+    <string name="correct">✅ Correct! Score: %1$d</string>
+
+    <!-- Game 1 – Multiplication Puzzle -->
+    <string name="game1_title">Multiplication Puzzle</string>
+    <string name="question_num">Question %1$d / %2$d</string>
+    <string name="streak_label">🔥 Streak: %1$d</string>
+    <string name="time_up">⏰ Time\'s up! Answer was %1$d</string>
+    <string name="wrong_answer">❌ Wrong! Answer was %1$d</string>
+    <string name="hint_equation">Find the missing value:</string>
+
+    <!-- Game 2 – Memory Match -->
+    <string name="game2_title">Memory Match</string>
+    <string name="moves_label">Moves: %1$d</string>
+    <string name="time_elapsed">Time: %1$d s</string>
+    <string name="pairs_label">Pairs: %1$d / %2$d</string>
+    <string name="match_found">✅ Match found!</string>
+    <string name="moves_time">%1$d moves in %2$d s</string>
+
+    <!-- Game 3 – Word Scramble -->
+    <string name="game3_title">Word Scramble</string>
+    <string name="word_num">Word %1$d / %2$d</string>
+    <string name="category_label">Category: %1$s</string>
+    <string name="attempts_left">Attempts left: %1$d</string>
+    <string name="time_up_word">⏰ Time\'s up! Word was: %1$s</string>
+    <string name="wrong_word">❌ Out of attempts! Word was: %1$s</string>
+    <string name="try_again">Try again! %1$d attempt(s) left.</string>
+    <string name="hint_used">💡 Hint used (-%1$d pts)</string>
+    <string name="btn_hint">💡 Hint (−5 pts)</string>
+    <string name="btn_submit">Submit</string>
+    <string name="unscramble_prompt">Unscramble this word:</string>
+
+    <!-- Game Result -->
+    <string name="result_great_job">🎉 Great Job!</string>
+    <string name="result_score">%1$d pts</string>
+    <string name="difficulty_label">Difficulty: %1$s</string>
+    <string name="label_moves">Moves / Time</string>
+    <string name="label_accuracy">Accuracy</string>
+    <string name="accuracy_value">%1$d%%</string>
+    <string name="new_high_score">🏆 New Personal Best!</string>
+    <string name="best_label">Your best: %1$d pts</string>
+    <string name="btn_play_again">Play Again</string>
+    <string name="btn_main_menu">Main Menu</string>
+    <string name="btn_share">📤 Share Score</string>
+    <string name="share_text">I scored %2$d pts in %3$s (%4$s) on BrainZone! 🧠 Can you beat %1$s\'s score?</string>
+    <string name="share_via">Share via…</string>
+
+    <!-- Dialogs -->
+    <string name="dialog_exit_title">Exit BrainZone?</string>
+    <string name="dialog_exit_msg">Are you sure you want to exit?</string>
+    <string name="dialog_quit_title">Quit Game?</string>
+    <string name="dialog_quit_msg">Your progress will be lost. Are you sure?</string>
+    <string name="dialog_reset_title">Reset Scores</string>
+    <string name="dialog_reset_msg">This will permanently delete all scores. Continue?</string>
+    <string name="dialog_clear_lb_msg">This will clear the entire leaderboard. Continue?</string>
+
+    <!-- Buttons -->
+    <string name="btn_yes">Yes</string>
+    <string name="btn_no">No</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_reset">Reset</string>
+    <string name="btn_clear">Clear</string>
+    <string name="btn_back">← Back</string>
+
+    <!-- Service notification -->
+    <string name="notif_music_text">BrainZone music is playing…</string>
+</resources>

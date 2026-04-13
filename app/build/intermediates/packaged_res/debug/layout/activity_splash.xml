@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SplashActivity layout – LinearLayout (Lecture 6) with gradient background (Lecture 5) -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/gradient_bg"
+    android:padding="@dimen/screen_padding">
+
+    <!-- App icon placeholder (replace with your own mipmap icon) -->
+    <TextView
+        android:layout_width="@dimen/logo_size"
+        android:layout_height="@dimen/logo_size"
+        android:text="🧠"
+        android:textSize="72sp"
+        android:gravity="center"
+        android:background="@android:color/transparent"
+        android:layout_marginBottom="24dp" />
+
+    <!-- App name -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="@dimen/text_hero"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:letterSpacing="0.1"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Tagline -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_tagline"
+        android:textSize="@dimen/text_medium"
+        android:textColor="#CCffffff"
+        android:gravity="center"
+        android:layout_marginBottom="48dp" />
+
+    <!-- Loading indicator -->
+    <ProgressBar
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:indeterminateTint="@color/white" />
+
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Screen padding -->
+    <dimen name="screen_padding">20dp</dimen>
+    <dimen name="section_margin">16dp</dimen>
+
+    <!-- Text sizes -->
+    <dimen name="text_small">12sp</dimen>
+    <dimen name="text_normal">14sp</dimen>
+    <dimen name="text_medium">16sp</dimen>
+    <dimen name="text_large">20sp</dimen>
+    <dimen name="text_xlarge">28sp</dimen>
+    <dimen name="text_hero">40sp</dimen>
+
+    <!-- Button heights -->
+    <dimen name="btn_height">56dp</dimen>
+    <dimen name="btn_height_small">44dp</dimen>
+    <dimen name="btn_corner_radius">28dp</dimen>
+
+    <!-- Card dimensions -->
+    <dimen name="card_elevation">6dp</dimen>
+    <dimen name="card_corner_radius">12dp</dimen>
+    <dimen name="card_margin">4dp</dimen>
+    <dimen name="memory_card_height">80dp</dimen>
+
+    <!-- Splash logo -->
+    <dimen name="logo_size">120dp</dimen>
+
+    <!-- Icon sizes -->
+    <dimen name="icon_small">24dp</dimen>
+    <dimen name="icon_medium">48dp</dimen>
+    <dimen name="icon_large">80dp</dimen>
+</resources>

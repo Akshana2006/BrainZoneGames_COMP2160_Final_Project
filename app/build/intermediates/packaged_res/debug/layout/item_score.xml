@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- RecyclerView item for one leaderboard entry (Lecture 11) -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:padding="12dp">
+
+    <!-- Rank number (1-5) -->
+    <TextView
+        android:id="@+id/tvRank"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:text="1"
+        android:textSize="14sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="@drawable/btn_rounded"
+        android:layout_marginEnd="12dp" />
+
+    <!-- Player name -->
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Player"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <!-- Difficulty badge -->
+    <TextView
+        android:id="@+id/tvDifficulty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EASY"
+        android:textSize="11sp"
+        android:textColor="@color/purple_primary"
+        android:textStyle="bold"
+        android:layout_marginEnd="12dp" />
+
+    <!-- Score value -->
+    <TextView
+        android:id="@+id/tvScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="850"
+        android:textSize="16sp"
+        android:textColor="@color/purple_primary"
+        android:textStyle="bold" />
+
+</LinearLayout>
