@@ -26,10 +26,10 @@ com.example.brainzone.app-constraintlayout-2.1.4-24 /Users/akshanaleninrajah/.gr
 com.example.brainzone.app-lifecycle-viewmodel-2.6.1-25 /Users/akshanaleninrajah/.gradle/caches/transforms-3/f81406677536a6dcf275209f173ea587/transformed/lifecycle-viewmodel-2.6.1/res
 com.example.brainzone.app-jetified-startup-runtime-1.1.1-26 /Users/akshanaleninrajah/.gradle/caches/transforms-3/fda369458d21641368ff9e1b07d66d91/transformed/jetified-startup-runtime-1.1.1/res
 com.example.brainzone.app-jetified-viewpager2-1.1.0-beta02-27 /Users/akshanaleninrajah/.gradle/caches/transforms-3/feea8d7dedd295620e707e9e6b2767bb/transformed/jetified-viewpager2-1.1.0-beta02/res
-com.example.brainzone.app-pngs-28 /Users/akshanaleninrajah/Downloads/BrainZone-2/app/build/generated/res/pngs/debug
-com.example.brainzone.app-resValues-29 /Users/akshanaleninrajah/Downloads/BrainZone-2/app/build/generated/res/resValues/debug
-com.example.brainzone.app-packageDebugResources-30 /Users/akshanaleninrajah/Downloads/BrainZone-2/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
-com.example.brainzone.app-packageDebugResources-31 /Users/akshanaleninrajah/Downloads/BrainZone-2/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
-com.example.brainzone.app-merged_res-32 /Users/akshanaleninrajah/Downloads/BrainZone-2/app/build/intermediates/merged_res/debug
-com.example.brainzone.app-debug-33 /Users/akshanaleninrajah/Downloads/BrainZone-2/app/src/debug/res
-com.example.brainzone.app-main-34 /Users/akshanaleninrajah/Downloads/BrainZone-2/app/src/main/res
+com.example.brainzone.app-pngs-28 /Users/akshanaleninrajah/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/build/generated/res/pngs/debug
+com.example.brainzone.app-resValues-29 /Users/akshanaleninrajah/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/build/generated/res/resValues/debug
+com.example.brainzone.app-packageDebugResources-30 /Users/akshanaleninrajah/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.example.brainzone.app-packageDebugResources-31 /Users/akshanaleninrajah/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.example.brainzone.app-merged_res-32 /Users/akshanaleninrajah/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/build/intermediates/merged_res/debug
+com.example.brainzone.app-debug-33 /Users/akshanaleninrajah/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/debug/res
+com.example.brainzone.app-main-34 /Users/akshanaleninrajah/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/res

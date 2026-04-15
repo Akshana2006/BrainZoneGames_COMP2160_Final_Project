@@ -49,6 +49,7 @@
     <string name="app_name">BrainZone</string>
     <string name="app_tagline">Train Your Brain, Beat Your Best!</string>
     <string name="attempts_left">Attempts left: %1$d</string>
+    <string name="attribution_label">BrainZone App</string>
     <string name="best_label">Your best: %1$d pts</string>
     <string name="btn_back">← Back</string>
     <string name="btn_cancel">Cancel</string>

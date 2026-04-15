@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
     <!-- App -->
     <string name="app_name">BrainZone</string>
     <string name="app_tagline">Train Your Brain, Beat Your Best!</string>
@@ -114,4 +114,5 @@
 
     <!-- Service notification -->
     <string name="notif_music_text">BrainZone music is playing…</string>
+    <string name="attribution_label">BrainZone App</string>
 </resources>

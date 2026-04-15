@@ -23,7 +23,7 @@ import java.util.Random;
  * Concepts demonstrated:
  *   • Activity lifecycle with onPause / onResume / onDestroy (Lecture 4)
  *   • onSaveInstanceState / onRestoreInstanceState   (Lecture 4)
- *   • CountDownTimer for per-question timing
+ *   • CountDownTimer for per - question timing
  *   • SharedPreferences – save high score            (Lecture 17)
  *   • BroadcastReceiver – ScreenOffReceiver          (Lecture 18)
  *   • Explicit Intent   – go to GameResultActivity   (Lecture 8)
@@ -155,49 +155,48 @@ public class Game1Activity extends AppCompatActivity implements ScreenOffReceive
         }
 
         String equation;
-        int    answer;
-        int    attempts = 0;
+        int answer;
+        int attempts = 0;
 
         do {
-            int a = random.nextInt(maxNum) + 1;
-            int b = random.nextInt(maxNum) + 1;
-            int c = a * b;
-
-            // For Medium and Hard, sometimes use division
             boolean useDivision = (difficulty.equals(Constants.DIFF_MEDIUM)
-                                || difficulty.equals(Constants.DIFF_HARD))
-                                && random.nextBoolean();
+                    || difficulty.equals(Constants.DIFF_HARD))
+                    && random.nextBoolean();
 
             if (useDivision) {
-                // a ÷ b = c  →  a is already b*c; hide one of the three slots
+                int divisor = random.nextInt(maxNum) + 1;
+                int quotient = random.nextInt(maxNum) + 1;
+                int dividend = divisor * quotient;
+
                 int slot = random.nextInt(3);
                 if (slot == 0) {
-                    // ? ÷ b = c
-                    equation = "? ÷ " + b + " = " + c;
-                    answer   = a;          // a = b * c
+                    equation = "? ÷ " + divisor + " = " + quotient;
+                    answer = dividend;
                 } else if (slot == 1) {
-                    // a ÷ ? = c
-                    equation = a + " ÷ ? = " + c;
-                    answer   = b;
+                    equation = dividend + " ÷ ? = " + quotient;
+                    answer = divisor;
                 } else {
-                    // a ÷ b = ?
-                    equation = a + " ÷ " + b + " = ?";
-                    answer   = c;
+                    equation = dividend + " ÷ " + divisor + " = ?";
+                    answer = quotient;
                 }
             } else {
-                // Multiplication – hide one slot
+                int a = random.nextInt(maxNum) + 1;
+                int b = random.nextInt(maxNum) + 1;
+                int c = a * b;
+
                 int slot = random.nextInt(3);
                 if (slot == 0) {
                     equation = "? × " + b + " = " + c;
-                    answer   = a;
+                    answer = a;
                 } else if (slot == 1) {
                     equation = a + " × ? = " + c;
-                    answer   = b;
+                    answer = b;
                 } else {
                     equation = a + " × " + b + " = ?";
-                    answer   = c;
+                    answer = c;
                 }
             }
+
             attempts++;
         } while (usedEquations.contains(equation) && attempts < 50);
 
@@ -244,8 +243,6 @@ public class Game1Activity extends AppCompatActivity implements ScreenOffReceive
             return;
         }
 
-        cancelTimer();
-
         int playerAnswer;
         try {
             playerAnswer = Integer.parseInt(input);
@@ -253,6 +250,8 @@ public class Game1Activity extends AppCompatActivity implements ScreenOffReceive
             Toast.makeText(this, R.string.invalid_number, Toast.LENGTH_SHORT).show();
             return;
         }
+
+        cancelTimer();
 
         if (playerAnswer == correctAnswer) {
             totalScore += POINTS_CORRECT;
@@ -346,13 +345,16 @@ public class Game1Activity extends AppCompatActivity implements ScreenOffReceive
         // Register dynamic BroadcastReceiver (Lecture 18)
         IntentFilter filter = new IntentFilter(Intent.ACTION_SCREEN_OFF);
         registerReceiver(screenOffReceiver, filter);
-        gamePaused = false;
     }
 
     @Override
     protected void onPause() {
         super.onPause();
         cancelTimer();
+        try {
+            unregisterReceiver(screenOffReceiver);
+        } catch (Exception ignored) {
+        }
     }
 
     @Override
@@ -364,15 +366,16 @@ public class Game1Activity extends AppCompatActivity implements ScreenOffReceive
     }
 
     /** Confirm exit when back is pressed during an active game. */
+    @SuppressWarnings("MissingSuperCall")
     @Override
     public void onBackPressed() {
         cancelTimer();
         new AlertDialog.Builder(this)
                 .setTitle(R.string.dialog_quit_title)
                 .setMessage(R.string.dialog_quit_msg)
-                .setPositiveButton(R.string.btn_yes, (d, w) -> finish())
+                .setPositiveButton(R.string.btn_yes, (d, w) -> { cancelTimer(); finish();} )
                 .setNegativeButton(R.string.btn_no, (d, w) -> {
-                    if (!gamePaused) loadNextQuestion();
+                    if (!gamePaused) startTimer();
                 })
                 .show();
     }

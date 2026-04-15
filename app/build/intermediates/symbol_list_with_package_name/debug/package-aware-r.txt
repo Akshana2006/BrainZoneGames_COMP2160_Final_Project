@@ -3897,6 +3897,7 @@ layout support_simple_spinner_dropdown_item
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
+raw background_music
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -3931,6 +3932,7 @@ string app_name
 string app_tagline
 string appbar_scrolling_view_behavior
 string attempts_left
+string attribution_label
 string best_label
 string bottom_sheet_behavior
 string bottomsheet_action_collapse

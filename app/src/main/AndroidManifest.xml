@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <!-- Permissions -->
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK" />
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
@@ -14,7 +13,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BrainZone">
 
-        <!-- Splash (launcher entry point) -->
         <activity
             android:name=".SplashActivity"
             android:exported="true"
@@ -26,59 +24,51 @@
             </intent-filter>
         </activity>
 
-        <!-- Main Menu -->
         <activity
             android:name=".MainActivity"
             android:exported="false"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.BrainZone.NoActionBar" />
 
-        <!-- Settings -->
         <activity
             android:name=".SettingsActivity"
             android:exported="false"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.BrainZone.NoActionBar" />
 
-        <!-- Leaderboard -->
         <activity
             android:name=".LeaderboardActivity"
             android:exported="false"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.BrainZone.NoActionBar" />
 
-        <!-- Game 1 – Multiplication Puzzle -->
         <activity
             android:name=".Game1Activity"
             android:exported="false"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.BrainZone.NoActionBar" />
 
-        <!-- Game 2 – Memory Match -->
         <activity
             android:name=".Game2Activity"
             android:exported="false"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.BrainZone.NoActionBar" />
 
-        <!-- Game 3 – Word Scramble -->
         <activity
             android:name=".Game3Activity"
             android:exported="false"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.BrainZone.NoActionBar" />
 
-        <!-- Shared Game Result Screen -->
         <activity
             android:name=".GameResultActivity"
             android:exported="false"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.BrainZone.NoActionBar" />
 
-        <!-- Background Music Service (Foreground) -->
         <service
             android:name=".BackgroundMusicService"
-            android:exported="false"
+            android:exported="true"
             android:foregroundServiceType="mediaPlayback" />
 
     </application>

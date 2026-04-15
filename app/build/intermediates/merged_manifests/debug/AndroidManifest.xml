@@ -8,7 +8,6 @@
         android:minSdkVersion="24"
         android:targetSdkVersion="34" />
 
-    <!-- Permissions -->
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK" />
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
@@ -30,8 +29,6 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.BrainZone" >
-
-        <!-- Splash (launcher entry point) -->
         <activity
             android:name="com.example.brainzone.SplashActivity"
             android:exported="true"
@@ -43,60 +40,45 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <!-- Main Menu -->
         <activity
             android:name="com.example.brainzone.MainActivity"
             android:exported="false"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.BrainZone.NoActionBar" />
-
-        <!-- Settings -->
         <activity
             android:name="com.example.brainzone.SettingsActivity"
             android:exported="false"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.BrainZone.NoActionBar" />
-
-        <!-- Leaderboard -->
         <activity
             android:name="com.example.brainzone.LeaderboardActivity"
             android:exported="false"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.BrainZone.NoActionBar" />
-
-        <!-- Game 1 – Multiplication Puzzle -->
         <activity
             android:name="com.example.brainzone.Game1Activity"
             android:exported="false"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.BrainZone.NoActionBar" />
-
-        <!-- Game 2 – Memory Match -->
         <activity
             android:name="com.example.brainzone.Game2Activity"
             android:exported="false"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.BrainZone.NoActionBar" />
-
-        <!-- Game 3 – Word Scramble -->
         <activity
             android:name="com.example.brainzone.Game3Activity"
             android:exported="false"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.BrainZone.NoActionBar" />
-
-        <!-- Shared Game Result Screen -->
         <activity
             android:name="com.example.brainzone.GameResultActivity"
             android:exported="false"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.BrainZone.NoActionBar" />
 
-        <!-- Background Music Service (Foreground) -->
         <service
             android:name="com.example.brainzone.BackgroundMusicService"
-            android:exported="false"
+            android:exported="true"
             android:foregroundServiceType="mediaPlayback" />
 
         <provider

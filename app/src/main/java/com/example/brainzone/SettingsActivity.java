@@ -61,10 +61,10 @@ public class SettingsActivity extends AppCompatActivity {
             editor.putBoolean(Constants.KEY_MUSIC_ENABLED, isChecked).apply();
             // Restart / stop music service to reflect the change
             Intent musicIntent = new Intent(this, BackgroundMusicService.class);
-            if (isChecked) {
-                startService(musicIntent);
+            if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.O) {
+                startForegroundService(musicIntent);
             } else {
-                stopService(musicIntent);
+                startService(musicIntent);
             }
         });
 

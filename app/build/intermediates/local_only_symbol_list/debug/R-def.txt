@@ -131,11 +131,13 @@ layout item_card
 layout item_score
 mipmap ic_launcher
 mipmap ic_launcher_round
+raw background_music
 string accuracy_value
 string all_time_high
 string app_name
 string app_tagline
 string attempts_left
+string attribution_label
 string best_label
 string btn_back
 string btn_cancel

@@ -63,19 +63,12 @@ public class BackgroundMusicService extends Service {
     /** Initialises MediaPlayer and begins looping playback. */
     private void startMusic() {
         if (mediaPlayer == null) {
-            // Safely resolve the raw resource – returns 0 if the file does not exist
-            int resId = getResources().getIdentifier(
-                    "background_music", "raw", getPackageName());
+            mediaPlayer = MediaPlayer.create(this, R.raw.background_music);
+        }
 
-            if (resId != 0) {
-                mediaPlayer = MediaPlayer.create(this, resId);
-                if (mediaPlayer != null) {
-                    mediaPlayer.setLooping(true); // Loop forever
-                    mediaPlayer.start();
-                }
-            }
-            // If resId == 0 the service still runs (foreground notification shows),
-            // but no audio plays until background_music.mp3 is added to res/raw/.
+        if (mediaPlayer != null && !mediaPlayer.isPlaying()) {
+            mediaPlayer.setLooping(true);
+            mediaPlayer.start();
         }
     }
 

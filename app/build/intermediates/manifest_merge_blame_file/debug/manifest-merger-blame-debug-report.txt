@@ -8,230 +8,212 @@
 8        android:minSdkVersion="24"
 9        android:targetSdkVersion="34" />
 10
-11    <!-- Permissions -->
-12    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-12-->/Users/akshanaleninrajah/Downloads/BrainZone-2/app/src/main/AndroidManifest.xml:5:5-77
-12-->/Users/akshanaleninrajah/Downloads/BrainZone-2/app/src/main/AndroidManifest.xml:5:22-74
-13    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK" />
-13-->/Users/akshanaleninrajah/Downloads/BrainZone-2/app/src/main/AndroidManifest.xml:6:5-92
-13-->/Users/akshanaleninrajah/Downloads/BrainZone-2/app/src/main/AndroidManifest.xml:6:22-89
-14    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
-14-->/Users/akshanaleninrajah/Downloads/BrainZone-2/app/src/main/AndroidManifest.xml:7:5-77
-14-->/Users/akshanaleninrajah/Downloads/BrainZone-2/app/src/main/AndroidManifest.xml:7:22-74
-15
-16    <permission
-16-->[androidx.core:core:1.12.0] /Users/akshanaleninrajah/.gradle/caches/transforms-3/740ae0ea3c31e6cd8edc9f94e7ba0f7e/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
-17        android:name="com.example.brainzone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-17-->[androidx.core:core:1.12.0] /Users/akshanaleninrajah/.gradle/caches/transforms-3/740ae0ea3c31e6cd8edc9f94e7ba0f7e/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
-18        android:protectionLevel="signature" />
-18-->[androidx.core:core:1.12.0] /Users/akshanaleninrajah/.gradle/caches/transforms-3/740ae0ea3c31e6cd8edc9f94e7ba0f7e/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
-19
-20    <uses-permission android:name="com.example.brainzone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-20-->[androidx.core:core:1.12.0] /Users/akshanaleninrajah/.gradle/caches/transforms-3/740ae0ea3c31e6cd8edc9f94e7ba0f7e/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
-20-->[androidx.core:core:1.12.0] /Users/akshanaleninrajah/.gradle/caches/transforms-3/740ae0ea3c31e6cd8edc9f94e7ba0f7e/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
-21
-22    <application
-22-->/Users/akshanaleninrajah/Downloads/BrainZone-2/app/src/main/AndroidManifest.xml:9:5-84:19
-23        android:allowBackup="true"
-23-->/Users/akshanaleninrajah/Downloads/BrainZone-2/app/src/main/AndroidManifest.xml:10:9-35
-24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-24-->[androidx.core:core:1.12.0] /Users/akshanaleninrajah/.gradle/caches/transforms-3/740ae0ea3c31e6cd8edc9f94e7ba0f7e/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
-25        android:debuggable="true"
-26        android:extractNativeLibs="false"
-27        android:icon="@mipmap/ic_launcher"
-27-->/Users/akshanaleninrajah/Downloads/BrainZone-2/app/src/main/AndroidManifest.xml:11:9-43
-28        android:label="@string/app_name"
-28-->/Users/akshanaleninrajah/Downloads/BrainZone-2/app/src/main/AndroidManifest.xml:12:9-41
-29        android:roundIcon="@mipmap/ic_launcher_round"
-29-->/Users/akshanaleninrajah/Downloads/BrainZone-2/app/src/main/AndroidManifest.xml:13:9-54
-30        android:supportsRtl="true"
-30-->/Users/akshanaleninrajah/Downloads/BrainZone-2/app/src/main/AndroidManifest.xml:14:9-35
-31        android:testOnly="true"
-32        android:theme="@style/Theme.BrainZone" >
-32-->/Users/akshanaleninrajah/Downloads/BrainZone-2/app/src/main/AndroidManifest.xml:15:9-47
-33
-34        <!-- Splash (launcher entry point) -->
-35        <activity
-35-->/Users/akshanaleninrajah/Downloads/BrainZone-2/app/src/main/AndroidManifest.xml:18:9-27:20
-36            android:name="com.example.brainzone.SplashActivity"
-36-->/Users/akshanaleninrajah/Downloads/BrainZone-2/app/src/main/AndroidManifest.xml:19:13-43
-37            android:exported="true"
-37-->/Users/akshanaleninrajah/Downloads/BrainZone-2/app/src/main/AndroidManifest.xml:20:13-36
-38            android:screenOrientation="portrait"
-38-->/Users/akshanaleninrajah/Downloads/BrainZone-2/app/src/main/AndroidManifest.xml:21:13-49
-39            android:theme="@style/Theme.BrainZone.NoActionBar" >
-39-->/Users/akshanaleninrajah/Downloads/BrainZone-2/app/src/main/AndroidManifest.xml:22:13-63
-40            <intent-filter>
-40-->/Users/akshanaleninrajah/Downloads/BrainZone-2/app/src/main/AndroidManifest.xml:23:13-26:29
-41                <action android:name="android.intent.action.MAIN" />
-41-->/Users/akshanaleninrajah/Downloads/BrainZone-2/app/src/main/AndroidManifest.xml:24:17-69
-41-->/Users/akshanaleninrajah/Downloads/BrainZone-2/app/src/main/AndroidManifest.xml:24:25-66
-42
-43                <category android:name="android.intent.category.LAUNCHER" />
-43-->/Users/akshanaleninrajah/Downloads/BrainZone-2/app/src/main/AndroidManifest.xml:25:17-77
-43-->/Users/akshanaleninrajah/Downloads/BrainZone-2/app/src/main/AndroidManifest.xml:25:27-74
-44            </intent-filter>
-45        </activity>
-46
-47        <!-- Main Menu -->
+11    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+11-->/Users/akshanaleninrajah/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:4:5-77
+11-->/Users/akshanaleninrajah/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:4:22-74
+12    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK" />
+12-->/Users/akshanaleninrajah/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:5:5-92
+12-->/Users/akshanaleninrajah/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:5:22-89
+13    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+13-->/Users/akshanaleninrajah/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:6:5-77
+13-->/Users/akshanaleninrajah/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:6:22-74
+14
+15    <permission
+15-->[androidx.core:core:1.12.0] /Users/akshanaleninrajah/.gradle/caches/transforms-3/740ae0ea3c31e6cd8edc9f94e7ba0f7e/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+16        android:name="com.example.brainzone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+16-->[androidx.core:core:1.12.0] /Users/akshanaleninrajah/.gradle/caches/transforms-3/740ae0ea3c31e6cd8edc9f94e7ba0f7e/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+17        android:protectionLevel="signature" />
+17-->[androidx.core:core:1.12.0] /Users/akshanaleninrajah/.gradle/caches/transforms-3/740ae0ea3c31e6cd8edc9f94e7ba0f7e/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+18
+19    <uses-permission android:name="com.example.brainzone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+19-->[androidx.core:core:1.12.0] /Users/akshanaleninrajah/.gradle/caches/transforms-3/740ae0ea3c31e6cd8edc9f94e7ba0f7e/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+19-->[androidx.core:core:1.12.0] /Users/akshanaleninrajah/.gradle/caches/transforms-3/740ae0ea3c31e6cd8edc9f94e7ba0f7e/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+20
+21    <application
+21-->/Users/akshanaleninrajah/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:8:5-74:19
+22        android:allowBackup="true"
+22-->/Users/akshanaleninrajah/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:9:9-35
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.12.0] /Users/akshanaleninrajah/.gradle/caches/transforms-3/740ae0ea3c31e6cd8edc9f94e7ba0f7e/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+24        android:debuggable="true"
+25        android:extractNativeLibs="false"
+26        android:icon="@mipmap/ic_launcher"
+26-->/Users/akshanaleninrajah/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:10:9-43
+27        android:label="@string/app_name"
+27-->/Users/akshanaleninrajah/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:11:9-41
+28        android:roundIcon="@mipmap/ic_launcher_round"
+28-->/Users/akshanaleninrajah/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:12:9-54
+29        android:supportsRtl="true"
+29-->/Users/akshanaleninrajah/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:13:9-35
+30        android:testOnly="true"
+31        android:theme="@style/Theme.BrainZone" >
+31-->/Users/akshanaleninrajah/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:14:9-47
+32        <activity
+32-->/Users/akshanaleninrajah/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:16:9-25:20
+33            android:name="com.example.brainzone.SplashActivity"
+33-->/Users/akshanaleninrajah/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:17:13-43
+34            android:exported="true"
+34-->/Users/akshanaleninrajah/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:18:13-36
+35            android:screenOrientation="portrait"
+35-->/Users/akshanaleninrajah/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:19:13-49
+36            android:theme="@style/Theme.BrainZone.NoActionBar" >
+36-->/Users/akshanaleninrajah/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:20:13-63
+37            <intent-filter>
+37-->/Users/akshanaleninrajah/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:21:13-24:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->/Users/akshanaleninrajah/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:22:17-69
+38-->/Users/akshanaleninrajah/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:22:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->/Users/akshanaleninrajah/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:23:17-77
+40-->/Users/akshanaleninrajah/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:23:27-74
+41            </intent-filter>
+42        </activity>
+43        <activity
+43-->/Users/akshanaleninrajah/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:27:9-31:66
+44            android:name="com.example.brainzone.MainActivity"
+44-->/Users/akshanaleninrajah/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:28:13-41
+45            android:exported="false"
+45-->/Users/akshanaleninrajah/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:29:13-37
+46            android:screenOrientation="portrait"
+46-->/Users/akshanaleninrajah/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:30:13-49
+47            android:theme="@style/Theme.BrainZone.NoActionBar" />
+47-->/Users/akshanaleninrajah/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:31:13-63
 48        <activity
-48-->/Users/akshanaleninrajah/Downloads/BrainZone-2/app/src/main/AndroidManifest.xml:30:9-34:66
-49            android:name="com.example.brainzone.MainActivity"
-49-->/Users/akshanaleninrajah/Downloads/BrainZone-2/app/src/main/AndroidManifest.xml:31:13-41
+48-->/Users/akshanaleninrajah/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:33:9-37:66
+49            android:name="com.example.brainzone.SettingsActivity"
+49-->/Users/akshanaleninrajah/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:34:13-45
 50            android:exported="false"
-50-->/Users/akshanaleninrajah/Downloads/BrainZone-2/app/src/main/AndroidManifest.xml:32:13-37
+50-->/Users/akshanaleninrajah/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:35:13-37
 51            android:screenOrientation="portrait"
-51-->/Users/akshanaleninrajah/Downloads/BrainZone-2/app/src/main/AndroidManifest.xml:33:13-49
+51-->/Users/akshanaleninrajah/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:36:13-49
 52            android:theme="@style/Theme.BrainZone.NoActionBar" />
-52-->/Users/akshanaleninrajah/Downloads/BrainZone-2/app/src/main/AndroidManifest.xml:34:13-63
-53
-54        <!-- Settings -->
-55        <activity
-55-->/Users/akshanaleninrajah/Downloads/BrainZone-2/app/src/main/AndroidManifest.xml:37:9-41:66
-56            android:name="com.example.brainzone.SettingsActivity"
-56-->/Users/akshanaleninrajah/Downloads/BrainZone-2/app/src/main/AndroidManifest.xml:38:13-45
-57            android:exported="false"
-57-->/Users/akshanaleninrajah/Downloads/BrainZone-2/app/src/main/AndroidManifest.xml:39:13-37
-58            android:screenOrientation="portrait"
-58-->/Users/akshanaleninrajah/Downloads/BrainZone-2/app/src/main/AndroidManifest.xml:40:13-49
-59            android:theme="@style/Theme.BrainZone.NoActionBar" />
-59-->/Users/akshanaleninrajah/Downloads/BrainZone-2/app/src/main/AndroidManifest.xml:41:13-63
-60
-61        <!-- Leaderboard -->
-62        <activity
-62-->/Users/akshanaleninrajah/Downloads/BrainZone-2/app/src/main/AndroidManifest.xml:44:9-48:66
-63            android:name="com.example.brainzone.LeaderboardActivity"
-63-->/Users/akshanaleninrajah/Downloads/BrainZone-2/app/src/main/AndroidManifest.xml:45:13-48
-64            android:exported="false"
-64-->/Users/akshanaleninrajah/Downloads/BrainZone-2/app/src/main/AndroidManifest.xml:46:13-37
-65            android:screenOrientation="portrait"
-65-->/Users/akshanaleninrajah/Downloads/BrainZone-2/app/src/main/AndroidManifest.xml:47:13-49
-66            android:theme="@style/Theme.BrainZone.NoActionBar" />
-66-->/Users/akshanaleninrajah/Downloads/BrainZone-2/app/src/main/AndroidManifest.xml:48:13-63
-67
-68        <!-- Game 1 – Multiplication Puzzle -->
-69        <activity
-69-->/Users/akshanaleninrajah/Downloads/BrainZone-2/app/src/main/AndroidManifest.xml:51:9-55:66
-70            android:name="com.example.brainzone.Game1Activity"
-70-->/Users/akshanaleninrajah/Downloads/BrainZone-2/app/src/main/AndroidManifest.xml:52:13-42
-71            android:exported="false"
-71-->/Users/akshanaleninrajah/Downloads/BrainZone-2/app/src/main/AndroidManifest.xml:53:13-37
-72            android:screenOrientation="portrait"
-72-->/Users/akshanaleninrajah/Downloads/BrainZone-2/app/src/main/AndroidManifest.xml:54:13-49
-73            android:theme="@style/Theme.BrainZone.NoActionBar" />
-73-->/Users/akshanaleninrajah/Downloads/BrainZone-2/app/src/main/AndroidManifest.xml:55:13-63
-74
-75        <!-- Game 2 – Memory Match -->
-76        <activity
-76-->/Users/akshanaleninrajah/Downloads/BrainZone-2/app/src/main/AndroidManifest.xml:58:9-62:66
-77            android:name="com.example.brainzone.Game2Activity"
-77-->/Users/akshanaleninrajah/Downloads/BrainZone-2/app/src/main/AndroidManifest.xml:59:13-42
-78            android:exported="false"
-78-->/Users/akshanaleninrajah/Downloads/BrainZone-2/app/src/main/AndroidManifest.xml:60:13-37
-79            android:screenOrientation="portrait"
-79-->/Users/akshanaleninrajah/Downloads/BrainZone-2/app/src/main/AndroidManifest.xml:61:13-49
-80            android:theme="@style/Theme.BrainZone.NoActionBar" />
-80-->/Users/akshanaleninrajah/Downloads/BrainZone-2/app/src/main/AndroidManifest.xml:62:13-63
-81
-82        <!-- Game 3 – Word Scramble -->
-83        <activity
-83-->/Users/akshanaleninrajah/Downloads/BrainZone-2/app/src/main/AndroidManifest.xml:65:9-69:66
-84            android:name="com.example.brainzone.Game3Activity"
-84-->/Users/akshanaleninrajah/Downloads/BrainZone-2/app/src/main/AndroidManifest.xml:66:13-42
-85            android:exported="false"
-85-->/Users/akshanaleninrajah/Downloads/BrainZone-2/app/src/main/AndroidManifest.xml:67:13-37
-86            android:screenOrientation="portrait"
-86-->/Users/akshanaleninrajah/Downloads/BrainZone-2/app/src/main/AndroidManifest.xml:68:13-49
-87            android:theme="@style/Theme.BrainZone.NoActionBar" />
-87-->/Users/akshanaleninrajah/Downloads/BrainZone-2/app/src/main/AndroidManifest.xml:69:13-63
-88
-89        <!-- Shared Game Result Screen -->
-90        <activity
-90-->/Users/akshanaleninrajah/Downloads/BrainZone-2/app/src/main/AndroidManifest.xml:72:9-76:66
-91            android:name="com.example.brainzone.GameResultActivity"
-91-->/Users/akshanaleninrajah/Downloads/BrainZone-2/app/src/main/AndroidManifest.xml:73:13-47
-92            android:exported="false"
-92-->/Users/akshanaleninrajah/Downloads/BrainZone-2/app/src/main/AndroidManifest.xml:74:13-37
-93            android:screenOrientation="portrait"
-93-->/Users/akshanaleninrajah/Downloads/BrainZone-2/app/src/main/AndroidManifest.xml:75:13-49
-94            android:theme="@style/Theme.BrainZone.NoActionBar" />
-94-->/Users/akshanaleninrajah/Downloads/BrainZone-2/app/src/main/AndroidManifest.xml:76:13-63
-95
-96        <!-- Background Music Service (Foreground) -->
-97        <service
-97-->/Users/akshanaleninrajah/Downloads/BrainZone-2/app/src/main/AndroidManifest.xml:79:9-82:61
-98            android:name="com.example.brainzone.BackgroundMusicService"
-98-->/Users/akshanaleninrajah/Downloads/BrainZone-2/app/src/main/AndroidManifest.xml:80:13-51
-99            android:exported="false"
-99-->/Users/akshanaleninrajah/Downloads/BrainZone-2/app/src/main/AndroidManifest.xml:81:13-37
-100            android:foregroundServiceType="mediaPlayback" />
-100-->/Users/akshanaleninrajah/Downloads/BrainZone-2/app/src/main/AndroidManifest.xml:82:13-58
-101
-102        <provider
-102-->[androidx.emoji2:emoji2:1.2.0] /Users/akshanaleninrajah/.gradle/caches/transforms-3/d121cbb831bfcedee4bd4dacef3ca9b6/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
-103            android:name="androidx.startup.InitializationProvider"
-103-->[androidx.emoji2:emoji2:1.2.0] /Users/akshanaleninrajah/.gradle/caches/transforms-3/d121cbb831bfcedee4bd4dacef3ca9b6/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
-104            android:authorities="com.example.brainzone.androidx-startup"
-104-->[androidx.emoji2:emoji2:1.2.0] /Users/akshanaleninrajah/.gradle/caches/transforms-3/d121cbb831bfcedee4bd4dacef3ca9b6/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
-105            android:exported="false" >
-105-->[androidx.emoji2:emoji2:1.2.0] /Users/akshanaleninrajah/.gradle/caches/transforms-3/d121cbb831bfcedee4bd4dacef3ca9b6/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
-106            <meta-data
-106-->[androidx.emoji2:emoji2:1.2.0] /Users/akshanaleninrajah/.gradle/caches/transforms-3/d121cbb831bfcedee4bd4dacef3ca9b6/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
-107                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-107-->[androidx.emoji2:emoji2:1.2.0] /Users/akshanaleninrajah/.gradle/caches/transforms-3/d121cbb831bfcedee4bd4dacef3ca9b6/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
-108                android:value="androidx.startup" />
-108-->[androidx.emoji2:emoji2:1.2.0] /Users/akshanaleninrajah/.gradle/caches/transforms-3/d121cbb831bfcedee4bd4dacef3ca9b6/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
-109            <meta-data
-109-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/akshanaleninrajah/.gradle/caches/transforms-3/9ea9e0b2ba026d72c3db5febde415dc6/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
-110                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-110-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/akshanaleninrajah/.gradle/caches/transforms-3/9ea9e0b2ba026d72c3db5febde415dc6/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
-111                android:value="androidx.startup" />
-111-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/akshanaleninrajah/.gradle/caches/transforms-3/9ea9e0b2ba026d72c3db5febde415dc6/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
-112            <meta-data
-112-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akshanaleninrajah/.gradle/caches/transforms-3/07eeb6960b57fb88826243e43d16a4e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
-113                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-113-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akshanaleninrajah/.gradle/caches/transforms-3/07eeb6960b57fb88826243e43d16a4e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
-114                android:value="androidx.startup" />
-114-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akshanaleninrajah/.gradle/caches/transforms-3/07eeb6960b57fb88826243e43d16a4e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
-115        </provider>
-116
-117        <receiver
-117-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akshanaleninrajah/.gradle/caches/transforms-3/07eeb6960b57fb88826243e43d16a4e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
-118            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-118-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akshanaleninrajah/.gradle/caches/transforms-3/07eeb6960b57fb88826243e43d16a4e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
-119            android:directBootAware="false"
-119-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akshanaleninrajah/.gradle/caches/transforms-3/07eeb6960b57fb88826243e43d16a4e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
-120            android:enabled="true"
-120-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akshanaleninrajah/.gradle/caches/transforms-3/07eeb6960b57fb88826243e43d16a4e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
-121            android:exported="true"
-121-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akshanaleninrajah/.gradle/caches/transforms-3/07eeb6960b57fb88826243e43d16a4e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
-122            android:permission="android.permission.DUMP" >
-122-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akshanaleninrajah/.gradle/caches/transforms-3/07eeb6960b57fb88826243e43d16a4e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
-123            <intent-filter>
-123-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akshanaleninrajah/.gradle/caches/transforms-3/07eeb6960b57fb88826243e43d16a4e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
-124                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-124-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akshanaleninrajah/.gradle/caches/transforms-3/07eeb6960b57fb88826243e43d16a4e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
-124-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akshanaleninrajah/.gradle/caches/transforms-3/07eeb6960b57fb88826243e43d16a4e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
-125            </intent-filter>
-126            <intent-filter>
-126-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akshanaleninrajah/.gradle/caches/transforms-3/07eeb6960b57fb88826243e43d16a4e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
-127                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-127-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akshanaleninrajah/.gradle/caches/transforms-3/07eeb6960b57fb88826243e43d16a4e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
-127-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akshanaleninrajah/.gradle/caches/transforms-3/07eeb6960b57fb88826243e43d16a4e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
-128            </intent-filter>
-129            <intent-filter>
-129-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akshanaleninrajah/.gradle/caches/transforms-3/07eeb6960b57fb88826243e43d16a4e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
-130                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-130-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akshanaleninrajah/.gradle/caches/transforms-3/07eeb6960b57fb88826243e43d16a4e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
-130-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akshanaleninrajah/.gradle/caches/transforms-3/07eeb6960b57fb88826243e43d16a4e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
-131            </intent-filter>
-132            <intent-filter>
-132-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akshanaleninrajah/.gradle/caches/transforms-3/07eeb6960b57fb88826243e43d16a4e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
-133                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-133-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akshanaleninrajah/.gradle/caches/transforms-3/07eeb6960b57fb88826243e43d16a4e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
-133-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akshanaleninrajah/.gradle/caches/transforms-3/07eeb6960b57fb88826243e43d16a4e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
-134            </intent-filter>
-135        </receiver>
-136    </application>
-137
-138</manifest>
+52-->/Users/akshanaleninrajah/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:37:13-63
+53        <activity
+53-->/Users/akshanaleninrajah/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:39:9-43:66
+54            android:name="com.example.brainzone.LeaderboardActivity"
+54-->/Users/akshanaleninrajah/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:40:13-48
+55            android:exported="false"
+55-->/Users/akshanaleninrajah/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:41:13-37
+56            android:screenOrientation="portrait"
+56-->/Users/akshanaleninrajah/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:42:13-49
+57            android:theme="@style/Theme.BrainZone.NoActionBar" />
+57-->/Users/akshanaleninrajah/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:43:13-63
+58        <activity
+58-->/Users/akshanaleninrajah/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:45:9-49:66
+59            android:name="com.example.brainzone.Game1Activity"
+59-->/Users/akshanaleninrajah/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:46:13-42
+60            android:exported="false"
+60-->/Users/akshanaleninrajah/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:47:13-37
+61            android:screenOrientation="portrait"
+61-->/Users/akshanaleninrajah/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:48:13-49
+62            android:theme="@style/Theme.BrainZone.NoActionBar" />
+62-->/Users/akshanaleninrajah/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:49:13-63
+63        <activity
+63-->/Users/akshanaleninrajah/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:51:9-55:66
+64            android:name="com.example.brainzone.Game2Activity"
+64-->/Users/akshanaleninrajah/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:52:13-42
+65            android:exported="false"
+65-->/Users/akshanaleninrajah/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:53:13-37
+66            android:screenOrientation="portrait"
+66-->/Users/akshanaleninrajah/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:54:13-49
+67            android:theme="@style/Theme.BrainZone.NoActionBar" />
+67-->/Users/akshanaleninrajah/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:55:13-63
+68        <activity
+68-->/Users/akshanaleninrajah/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:57:9-61:66
+69            android:name="com.example.brainzone.Game3Activity"
+69-->/Users/akshanaleninrajah/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:58:13-42
+70            android:exported="false"
+70-->/Users/akshanaleninrajah/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:59:13-37
+71            android:screenOrientation="portrait"
+71-->/Users/akshanaleninrajah/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:60:13-49
+72            android:theme="@style/Theme.BrainZone.NoActionBar" />
+72-->/Users/akshanaleninrajah/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:61:13-63
+73        <activity
+73-->/Users/akshanaleninrajah/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:63:9-67:66
+74            android:name="com.example.brainzone.GameResultActivity"
+74-->/Users/akshanaleninrajah/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:64:13-47
+75            android:exported="false"
+75-->/Users/akshanaleninrajah/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:65:13-37
+76            android:screenOrientation="portrait"
+76-->/Users/akshanaleninrajah/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:66:13-49
+77            android:theme="@style/Theme.BrainZone.NoActionBar" />
+77-->/Users/akshanaleninrajah/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:67:13-63
+78
+79        <service
+79-->/Users/akshanaleninrajah/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:69:9-72:61
+80            android:name="com.example.brainzone.BackgroundMusicService"
+80-->/Users/akshanaleninrajah/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:70:13-51
+81            android:exported="true"
+81-->/Users/akshanaleninrajah/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:71:13-36
+82            android:foregroundServiceType="mediaPlayback" />
+82-->/Users/akshanaleninrajah/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:72:13-58
+83
+84        <provider
+84-->[androidx.emoji2:emoji2:1.2.0] /Users/akshanaleninrajah/.gradle/caches/transforms-3/d121cbb831bfcedee4bd4dacef3ca9b6/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+85            android:name="androidx.startup.InitializationProvider"
+85-->[androidx.emoji2:emoji2:1.2.0] /Users/akshanaleninrajah/.gradle/caches/transforms-3/d121cbb831bfcedee4bd4dacef3ca9b6/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+86            android:authorities="com.example.brainzone.androidx-startup"
+86-->[androidx.emoji2:emoji2:1.2.0] /Users/akshanaleninrajah/.gradle/caches/transforms-3/d121cbb831bfcedee4bd4dacef3ca9b6/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+87            android:exported="false" >
+87-->[androidx.emoji2:emoji2:1.2.0] /Users/akshanaleninrajah/.gradle/caches/transforms-3/d121cbb831bfcedee4bd4dacef3ca9b6/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+88            <meta-data
+88-->[androidx.emoji2:emoji2:1.2.0] /Users/akshanaleninrajah/.gradle/caches/transforms-3/d121cbb831bfcedee4bd4dacef3ca9b6/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+89                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+89-->[androidx.emoji2:emoji2:1.2.0] /Users/akshanaleninrajah/.gradle/caches/transforms-3/d121cbb831bfcedee4bd4dacef3ca9b6/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+90                android:value="androidx.startup" />
+90-->[androidx.emoji2:emoji2:1.2.0] /Users/akshanaleninrajah/.gradle/caches/transforms-3/d121cbb831bfcedee4bd4dacef3ca9b6/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+91            <meta-data
+91-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/akshanaleninrajah/.gradle/caches/transforms-3/9ea9e0b2ba026d72c3db5febde415dc6/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+92                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+92-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/akshanaleninrajah/.gradle/caches/transforms-3/9ea9e0b2ba026d72c3db5febde415dc6/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+93                android:value="androidx.startup" />
+93-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/akshanaleninrajah/.gradle/caches/transforms-3/9ea9e0b2ba026d72c3db5febde415dc6/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+94            <meta-data
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akshanaleninrajah/.gradle/caches/transforms-3/07eeb6960b57fb88826243e43d16a4e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+95                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+95-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akshanaleninrajah/.gradle/caches/transforms-3/07eeb6960b57fb88826243e43d16a4e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+96                android:value="androidx.startup" />
+96-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akshanaleninrajah/.gradle/caches/transforms-3/07eeb6960b57fb88826243e43d16a4e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+97        </provider>
+98
+99        <receiver
+99-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akshanaleninrajah/.gradle/caches/transforms-3/07eeb6960b57fb88826243e43d16a4e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+100            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+100-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akshanaleninrajah/.gradle/caches/transforms-3/07eeb6960b57fb88826243e43d16a4e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+101            android:directBootAware="false"
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akshanaleninrajah/.gradle/caches/transforms-3/07eeb6960b57fb88826243e43d16a4e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+102            android:enabled="true"
+102-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akshanaleninrajah/.gradle/caches/transforms-3/07eeb6960b57fb88826243e43d16a4e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+103            android:exported="true"
+103-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akshanaleninrajah/.gradle/caches/transforms-3/07eeb6960b57fb88826243e43d16a4e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+104            android:permission="android.permission.DUMP" >
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akshanaleninrajah/.gradle/caches/transforms-3/07eeb6960b57fb88826243e43d16a4e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+105            <intent-filter>
+105-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akshanaleninrajah/.gradle/caches/transforms-3/07eeb6960b57fb88826243e43d16a4e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+106                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+106-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akshanaleninrajah/.gradle/caches/transforms-3/07eeb6960b57fb88826243e43d16a4e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+106-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akshanaleninrajah/.gradle/caches/transforms-3/07eeb6960b57fb88826243e43d16a4e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+107            </intent-filter>
+108            <intent-filter>
+108-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akshanaleninrajah/.gradle/caches/transforms-3/07eeb6960b57fb88826243e43d16a4e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+109                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+109-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akshanaleninrajah/.gradle/caches/transforms-3/07eeb6960b57fb88826243e43d16a4e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+109-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akshanaleninrajah/.gradle/caches/transforms-3/07eeb6960b57fb88826243e43d16a4e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+110            </intent-filter>
+111            <intent-filter>
+111-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akshanaleninrajah/.gradle/caches/transforms-3/07eeb6960b57fb88826243e43d16a4e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+112                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+112-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akshanaleninrajah/.gradle/caches/transforms-3/07eeb6960b57fb88826243e43d16a4e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+112-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akshanaleninrajah/.gradle/caches/transforms-3/07eeb6960b57fb88826243e43d16a4e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+113            </intent-filter>
+114            <intent-filter>
+114-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akshanaleninrajah/.gradle/caches/transforms-3/07eeb6960b57fb88826243e43d16a4e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+115                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+115-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akshanaleninrajah/.gradle/caches/transforms-3/07eeb6960b57fb88826243e43d16a4e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+115-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akshanaleninrajah/.gradle/caches/transforms-3/07eeb6960b57fb88826243e43d16a4e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+116            </intent-filter>
+117        </receiver>
+118    </application>
+119
+120</manifest>

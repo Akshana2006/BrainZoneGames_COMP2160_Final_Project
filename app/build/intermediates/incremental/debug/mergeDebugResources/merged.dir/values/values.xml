@@ -2016,6 +2016,7 @@
     <string name="app_tagline">Train Your Brain, Beat Your Best!</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
     <string name="attempts_left">Attempts left: %1$d</string>
+    <string name="attribution_label">BrainZone App</string>
     <string name="best_label">Your best: %1$d pts</string>
     <string name="bottom_sheet_behavior" translatable="false">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
     <string description="A description of an accessibility action to collapse the bottom sheet [CHAR LIMIT=NONE]" name="bottomsheet_action_collapse">Collapse the bottom sheet</string>
