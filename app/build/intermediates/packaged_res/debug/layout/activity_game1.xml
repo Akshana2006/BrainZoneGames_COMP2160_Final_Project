@@ -2,6 +2,7 @@
 <!-- Game1Activity – Multiplication Puzzle layout (Lecture 6 LinearLayout) -->
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -120,15 +121,14 @@
             <!-- Equation display -->
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="250dp"
                 android:layout_marginBottom="24dp"
                 app:cardCornerRadius="@dimen/card_corner_radius"
-                app:cardElevation="@dimen/card_elevation"
-                xmlns:app="http://schemas.android.com/apk/res-auto">
+                app:cardElevation="@dimen/card_elevation">
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:background="@drawable/gradient_bg"
                     android:gravity="center"
                     android:padding="32dp">
@@ -137,11 +137,11 @@
                         android:id="@+id/tvQuestion"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:gravity="center"
                         android:text="\? × 9 = 63"
-                        android:textSize="36sp"
                         android:textColor="@color/white"
-                        android:textStyle="bold"
-                        android:gravity="center" />
+                        android:textSize="36sp"
+                        android:textStyle="bold" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 

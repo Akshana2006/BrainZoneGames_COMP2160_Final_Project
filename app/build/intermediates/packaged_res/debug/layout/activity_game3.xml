@@ -2,6 +2,7 @@
 <!-- Game3Activity – Word Scramble layout (Lecture 6 LinearLayout) -->
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -122,12 +123,11 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
                 app:cardCornerRadius="@dimen/card_corner_radius"
-                app:cardElevation="@dimen/card_elevation"
-                xmlns:app="http://schemas.android.com/apk/res-auto">
+                app:cardElevation="@dimen/card_elevation">
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="249dp"
                     android:background="@drawable/gradient_bg"
                     android:gravity="center"
                     android:padding="28dp">
@@ -135,20 +135,20 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
                         android:text="@string/unscramble_prompt"
-                        android:textSize="@dimen/text_normal"
                         android:textColor="#CCffffff"
-                        android:layout_marginEnd="8dp" />
+                        android:textSize="@dimen/text_normal" />
 
                     <TextView
                         android:id="@+id/tvScrambled"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:letterSpacing="0.2"
                         android:text="LPPAEE"
-                        android:textSize="32sp"
                         android:textColor="@color/white"
-                        android:textStyle="bold"
-                        android:letterSpacing="0.2" />
+                        android:textSize="32sp"
+                        android:textStyle="bold" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
