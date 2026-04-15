@@ -63,7 +63,10 @@ public class BackgroundMusicService extends Service {
     /** Initialises MediaPlayer and begins looping playback. */
     private void startMusic() {
         if (mediaPlayer == null) {
-            mediaPlayer = MediaPlayer.create(this, R.raw.background_music);
+            int resId = getResources().getIdentifier("background_music", "raw", getPackageName());
+            if (resId != 0) {
+                mediaPlayer = MediaPlayer.create(this, resId);
+            }
         }
 
         if (mediaPlayer != null && !mediaPlayer.isPlaying()) {
