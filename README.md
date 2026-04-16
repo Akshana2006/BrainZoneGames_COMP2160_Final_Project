@@ -56,19 +56,8 @@ BrainZone/
 | **onSaveInstanceState** | Game1 – preserves score across screen rotation |
 | **Custom Broadcast** | `com.example.brainzone.GAME_OVER` – sent after every game |
 
----
 
-## 🎵 Adding Background Music
-
-1. Create the folder: `app/src/main/res/raw/`
-2. Add your MP3 file named exactly: `background_music.mp3`
-3. Re-build. The `BackgroundMusicService` auto-detects it via `getResources().getIdentifier()`.
-
-> Without the file, the service still starts and shows its foreground notification — it just won't play audio.
-
----
-
-## 🚀 How to Open in Android Studio
+##  How to Open in Android Studio
 
 1. Clone / unzip this project
 2. **File → Open** → select the `BrainZone/` folder
@@ -77,7 +66,7 @@ BrainZone/
 
 ---
 
-## 🎮 Games Overview
+##  Games Overview
 
 ### 1. Multiplication Puzzle
 - 10 questions per round with a hidden value (e.g., `6 × ? = 48`)
@@ -96,7 +85,7 @@ BrainZone/
 
 ---
 
-## 📚 Lecture Concepts Used
+##  Lecture Concepts Used
 
 | Lecture | Concept Applied |
 |---|---|
