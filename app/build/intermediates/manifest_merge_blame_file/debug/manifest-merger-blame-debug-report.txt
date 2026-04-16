@@ -9,209 +9,209 @@
 9        android:targetSdkVersion="34" />
 10
 11    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-11-->/Users/eltonburuvuru/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:4:5-77
-11-->/Users/eltonburuvuru/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:4:22-74
+11-->C:\Users\nyaku\BrainZoneGames_COMP2160_Final_Project\app\src\main\AndroidManifest.xml:4:5-77
+11-->C:\Users\nyaku\BrainZoneGames_COMP2160_Final_Project\app\src\main\AndroidManifest.xml:4:22-74
 12    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK" />
-12-->/Users/eltonburuvuru/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:5:5-92
-12-->/Users/eltonburuvuru/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:5:22-89
+12-->C:\Users\nyaku\BrainZoneGames_COMP2160_Final_Project\app\src\main\AndroidManifest.xml:5:5-92
+12-->C:\Users\nyaku\BrainZoneGames_COMP2160_Final_Project\app\src\main\AndroidManifest.xml:5:22-89
 13    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
-13-->/Users/eltonburuvuru/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:6:5-77
-13-->/Users/eltonburuvuru/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:6:22-74
+13-->C:\Users\nyaku\BrainZoneGames_COMP2160_Final_Project\app\src\main\AndroidManifest.xml:6:5-77
+13-->C:\Users\nyaku\BrainZoneGames_COMP2160_Final_Project\app\src\main\AndroidManifest.xml:6:22-74
 14
 15    <permission
-15-->[androidx.core:core:1.12.0] /Users/eltonburuvuru/.gradle/caches/transforms-3/740ae0ea3c31e6cd8edc9f94e7ba0f7e/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+15-->[androidx.core:core:1.12.0] C:\Users\nyaku\.gradle\caches\transforms-3\740ae0ea3c31e6cd8edc9f94e7ba0f7e\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
 16        android:name="com.example.brainzone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-16-->[androidx.core:core:1.12.0] /Users/eltonburuvuru/.gradle/caches/transforms-3/740ae0ea3c31e6cd8edc9f94e7ba0f7e/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+16-->[androidx.core:core:1.12.0] C:\Users\nyaku\.gradle\caches\transforms-3\740ae0ea3c31e6cd8edc9f94e7ba0f7e\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
 17        android:protectionLevel="signature" />
-17-->[androidx.core:core:1.12.0] /Users/eltonburuvuru/.gradle/caches/transforms-3/740ae0ea3c31e6cd8edc9f94e7ba0f7e/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+17-->[androidx.core:core:1.12.0] C:\Users\nyaku\.gradle\caches\transforms-3\740ae0ea3c31e6cd8edc9f94e7ba0f7e\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
 18
 19    <uses-permission android:name="com.example.brainzone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-19-->[androidx.core:core:1.12.0] /Users/eltonburuvuru/.gradle/caches/transforms-3/740ae0ea3c31e6cd8edc9f94e7ba0f7e/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
-19-->[androidx.core:core:1.12.0] /Users/eltonburuvuru/.gradle/caches/transforms-3/740ae0ea3c31e6cd8edc9f94e7ba0f7e/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+19-->[androidx.core:core:1.12.0] C:\Users\nyaku\.gradle\caches\transforms-3\740ae0ea3c31e6cd8edc9f94e7ba0f7e\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+19-->[androidx.core:core:1.12.0] C:\Users\nyaku\.gradle\caches\transforms-3\740ae0ea3c31e6cd8edc9f94e7ba0f7e\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
 20
 21    <application
-21-->/Users/eltonburuvuru/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:8:5-74:19
+21-->C:\Users\nyaku\BrainZoneGames_COMP2160_Final_Project\app\src\main\AndroidManifest.xml:8:5-74:19
 22        android:allowBackup="true"
-22-->/Users/eltonburuvuru/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:9:9-35
+22-->C:\Users\nyaku\BrainZoneGames_COMP2160_Final_Project\app\src\main\AndroidManifest.xml:9:9-35
 23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-23-->[androidx.core:core:1.12.0] /Users/eltonburuvuru/.gradle/caches/transforms-3/740ae0ea3c31e6cd8edc9f94e7ba0f7e/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+23-->[androidx.core:core:1.12.0] C:\Users\nyaku\.gradle\caches\transforms-3\740ae0ea3c31e6cd8edc9f94e7ba0f7e\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
 24        android:debuggable="true"
 25        android:extractNativeLibs="false"
 26        android:icon="@mipmap/ic_launcher"
-26-->/Users/eltonburuvuru/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:10:9-43
+26-->C:\Users\nyaku\BrainZoneGames_COMP2160_Final_Project\app\src\main\AndroidManifest.xml:10:9-43
 27        android:label="@string/app_name"
-27-->/Users/eltonburuvuru/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:11:9-41
+27-->C:\Users\nyaku\BrainZoneGames_COMP2160_Final_Project\app\src\main\AndroidManifest.xml:11:9-41
 28        android:roundIcon="@mipmap/ic_launcher_round"
-28-->/Users/eltonburuvuru/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:12:9-54
+28-->C:\Users\nyaku\BrainZoneGames_COMP2160_Final_Project\app\src\main\AndroidManifest.xml:12:9-54
 29        android:supportsRtl="true"
-29-->/Users/eltonburuvuru/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:13:9-35
+29-->C:\Users\nyaku\BrainZoneGames_COMP2160_Final_Project\app\src\main\AndroidManifest.xml:13:9-35
 30        android:testOnly="true"
 31        android:theme="@style/Theme.BrainZone" >
-31-->/Users/eltonburuvuru/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:14:9-47
+31-->C:\Users\nyaku\BrainZoneGames_COMP2160_Final_Project\app\src\main\AndroidManifest.xml:14:9-47
 32        <activity
-32-->/Users/eltonburuvuru/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:16:9-25:20
+32-->C:\Users\nyaku\BrainZoneGames_COMP2160_Final_Project\app\src\main\AndroidManifest.xml:16:9-25:20
 33            android:name="com.example.brainzone.SplashActivity"
-33-->/Users/eltonburuvuru/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:17:13-43
+33-->C:\Users\nyaku\BrainZoneGames_COMP2160_Final_Project\app\src\main\AndroidManifest.xml:17:13-43
 34            android:exported="true"
-34-->/Users/eltonburuvuru/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:18:13-36
+34-->C:\Users\nyaku\BrainZoneGames_COMP2160_Final_Project\app\src\main\AndroidManifest.xml:18:13-36
 35            android:screenOrientation="portrait"
-35-->/Users/eltonburuvuru/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:19:13-49
+35-->C:\Users\nyaku\BrainZoneGames_COMP2160_Final_Project\app\src\main\AndroidManifest.xml:19:13-49
 36            android:theme="@style/Theme.BrainZone.NoActionBar" >
-36-->/Users/eltonburuvuru/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:20:13-63
+36-->C:\Users\nyaku\BrainZoneGames_COMP2160_Final_Project\app\src\main\AndroidManifest.xml:20:13-63
 37            <intent-filter>
-37-->/Users/eltonburuvuru/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:21:13-24:29
+37-->C:\Users\nyaku\BrainZoneGames_COMP2160_Final_Project\app\src\main\AndroidManifest.xml:21:13-24:29
 38                <action android:name="android.intent.action.MAIN" />
-38-->/Users/eltonburuvuru/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:22:17-69
-38-->/Users/eltonburuvuru/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:22:25-66
+38-->C:\Users\nyaku\BrainZoneGames_COMP2160_Final_Project\app\src\main\AndroidManifest.xml:22:17-69
+38-->C:\Users\nyaku\BrainZoneGames_COMP2160_Final_Project\app\src\main\AndroidManifest.xml:22:25-66
 39
 40                <category android:name="android.intent.category.LAUNCHER" />
-40-->/Users/eltonburuvuru/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:23:17-77
-40-->/Users/eltonburuvuru/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:23:27-74
+40-->C:\Users\nyaku\BrainZoneGames_COMP2160_Final_Project\app\src\main\AndroidManifest.xml:23:17-77
+40-->C:\Users\nyaku\BrainZoneGames_COMP2160_Final_Project\app\src\main\AndroidManifest.xml:23:27-74
 41            </intent-filter>
 42        </activity>
 43        <activity
-43-->/Users/eltonburuvuru/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:27:9-31:66
+43-->C:\Users\nyaku\BrainZoneGames_COMP2160_Final_Project\app\src\main\AndroidManifest.xml:27:9-31:66
 44            android:name="com.example.brainzone.MainActivity"
-44-->/Users/eltonburuvuru/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:28:13-41
+44-->C:\Users\nyaku\BrainZoneGames_COMP2160_Final_Project\app\src\main\AndroidManifest.xml:28:13-41
 45            android:exported="false"
-45-->/Users/eltonburuvuru/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:29:13-37
+45-->C:\Users\nyaku\BrainZoneGames_COMP2160_Final_Project\app\src\main\AndroidManifest.xml:29:13-37
 46            android:screenOrientation="portrait"
-46-->/Users/eltonburuvuru/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:30:13-49
+46-->C:\Users\nyaku\BrainZoneGames_COMP2160_Final_Project\app\src\main\AndroidManifest.xml:30:13-49
 47            android:theme="@style/Theme.BrainZone.NoActionBar" />
-47-->/Users/eltonburuvuru/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:31:13-63
+47-->C:\Users\nyaku\BrainZoneGames_COMP2160_Final_Project\app\src\main\AndroidManifest.xml:31:13-63
 48        <activity
-48-->/Users/eltonburuvuru/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:33:9-37:66
+48-->C:\Users\nyaku\BrainZoneGames_COMP2160_Final_Project\app\src\main\AndroidManifest.xml:33:9-37:66
 49            android:name="com.example.brainzone.SettingsActivity"
-49-->/Users/eltonburuvuru/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:34:13-45
+49-->C:\Users\nyaku\BrainZoneGames_COMP2160_Final_Project\app\src\main\AndroidManifest.xml:34:13-45
 50            android:exported="false"
-50-->/Users/eltonburuvuru/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:35:13-37
+50-->C:\Users\nyaku\BrainZoneGames_COMP2160_Final_Project\app\src\main\AndroidManifest.xml:35:13-37
 51            android:screenOrientation="portrait"
-51-->/Users/eltonburuvuru/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:36:13-49
+51-->C:\Users\nyaku\BrainZoneGames_COMP2160_Final_Project\app\src\main\AndroidManifest.xml:36:13-49
 52            android:theme="@style/Theme.BrainZone.NoActionBar" />
-52-->/Users/eltonburuvuru/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:37:13-63
+52-->C:\Users\nyaku\BrainZoneGames_COMP2160_Final_Project\app\src\main\AndroidManifest.xml:37:13-63
 53        <activity
-53-->/Users/eltonburuvuru/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:39:9-43:66
+53-->C:\Users\nyaku\BrainZoneGames_COMP2160_Final_Project\app\src\main\AndroidManifest.xml:39:9-43:66
 54            android:name="com.example.brainzone.LeaderboardActivity"
-54-->/Users/eltonburuvuru/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:40:13-48
+54-->C:\Users\nyaku\BrainZoneGames_COMP2160_Final_Project\app\src\main\AndroidManifest.xml:40:13-48
 55            android:exported="false"
-55-->/Users/eltonburuvuru/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:41:13-37
+55-->C:\Users\nyaku\BrainZoneGames_COMP2160_Final_Project\app\src\main\AndroidManifest.xml:41:13-37
 56            android:screenOrientation="portrait"
-56-->/Users/eltonburuvuru/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:42:13-49
+56-->C:\Users\nyaku\BrainZoneGames_COMP2160_Final_Project\app\src\main\AndroidManifest.xml:42:13-49
 57            android:theme="@style/Theme.BrainZone.NoActionBar" />
-57-->/Users/eltonburuvuru/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:43:13-63
+57-->C:\Users\nyaku\BrainZoneGames_COMP2160_Final_Project\app\src\main\AndroidManifest.xml:43:13-63
 58        <activity
-58-->/Users/eltonburuvuru/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:45:9-49:66
+58-->C:\Users\nyaku\BrainZoneGames_COMP2160_Final_Project\app\src\main\AndroidManifest.xml:45:9-49:66
 59            android:name="com.example.brainzone.Game1Activity"
-59-->/Users/eltonburuvuru/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:46:13-42
+59-->C:\Users\nyaku\BrainZoneGames_COMP2160_Final_Project\app\src\main\AndroidManifest.xml:46:13-42
 60            android:exported="false"
-60-->/Users/eltonburuvuru/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:47:13-37
+60-->C:\Users\nyaku\BrainZoneGames_COMP2160_Final_Project\app\src\main\AndroidManifest.xml:47:13-37
 61            android:screenOrientation="portrait"
-61-->/Users/eltonburuvuru/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:48:13-49
+61-->C:\Users\nyaku\BrainZoneGames_COMP2160_Final_Project\app\src\main\AndroidManifest.xml:48:13-49
 62            android:theme="@style/Theme.BrainZone.NoActionBar" />
-62-->/Users/eltonburuvuru/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:49:13-63
+62-->C:\Users\nyaku\BrainZoneGames_COMP2160_Final_Project\app\src\main\AndroidManifest.xml:49:13-63
 63        <activity
-63-->/Users/eltonburuvuru/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:51:9-55:66
+63-->C:\Users\nyaku\BrainZoneGames_COMP2160_Final_Project\app\src\main\AndroidManifest.xml:51:9-55:66
 64            android:name="com.example.brainzone.Game2Activity"
-64-->/Users/eltonburuvuru/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:52:13-42
+64-->C:\Users\nyaku\BrainZoneGames_COMP2160_Final_Project\app\src\main\AndroidManifest.xml:52:13-42
 65            android:exported="false"
-65-->/Users/eltonburuvuru/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:53:13-37
+65-->C:\Users\nyaku\BrainZoneGames_COMP2160_Final_Project\app\src\main\AndroidManifest.xml:53:13-37
 66            android:screenOrientation="portrait"
-66-->/Users/eltonburuvuru/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:54:13-49
+66-->C:\Users\nyaku\BrainZoneGames_COMP2160_Final_Project\app\src\main\AndroidManifest.xml:54:13-49
 67            android:theme="@style/Theme.BrainZone.NoActionBar" />
-67-->/Users/eltonburuvuru/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:55:13-63
+67-->C:\Users\nyaku\BrainZoneGames_COMP2160_Final_Project\app\src\main\AndroidManifest.xml:55:13-63
 68        <activity
-68-->/Users/eltonburuvuru/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:57:9-61:66
+68-->C:\Users\nyaku\BrainZoneGames_COMP2160_Final_Project\app\src\main\AndroidManifest.xml:57:9-61:66
 69            android:name="com.example.brainzone.Game3Activity"
-69-->/Users/eltonburuvuru/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:58:13-42
+69-->C:\Users\nyaku\BrainZoneGames_COMP2160_Final_Project\app\src\main\AndroidManifest.xml:58:13-42
 70            android:exported="false"
-70-->/Users/eltonburuvuru/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:59:13-37
+70-->C:\Users\nyaku\BrainZoneGames_COMP2160_Final_Project\app\src\main\AndroidManifest.xml:59:13-37
 71            android:screenOrientation="portrait"
-71-->/Users/eltonburuvuru/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:60:13-49
+71-->C:\Users\nyaku\BrainZoneGames_COMP2160_Final_Project\app\src\main\AndroidManifest.xml:60:13-49
 72            android:theme="@style/Theme.BrainZone.NoActionBar" />
-72-->/Users/eltonburuvuru/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:61:13-63
+72-->C:\Users\nyaku\BrainZoneGames_COMP2160_Final_Project\app\src\main\AndroidManifest.xml:61:13-63
 73        <activity
-73-->/Users/eltonburuvuru/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:63:9-67:66
+73-->C:\Users\nyaku\BrainZoneGames_COMP2160_Final_Project\app\src\main\AndroidManifest.xml:63:9-67:66
 74            android:name="com.example.brainzone.GameResultActivity"
-74-->/Users/eltonburuvuru/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:64:13-47
+74-->C:\Users\nyaku\BrainZoneGames_COMP2160_Final_Project\app\src\main\AndroidManifest.xml:64:13-47
 75            android:exported="false"
-75-->/Users/eltonburuvuru/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:65:13-37
+75-->C:\Users\nyaku\BrainZoneGames_COMP2160_Final_Project\app\src\main\AndroidManifest.xml:65:13-37
 76            android:screenOrientation="portrait"
-76-->/Users/eltonburuvuru/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:66:13-49
+76-->C:\Users\nyaku\BrainZoneGames_COMP2160_Final_Project\app\src\main\AndroidManifest.xml:66:13-49
 77            android:theme="@style/Theme.BrainZone.NoActionBar" />
-77-->/Users/eltonburuvuru/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:67:13-63
+77-->C:\Users\nyaku\BrainZoneGames_COMP2160_Final_Project\app\src\main\AndroidManifest.xml:67:13-63
 78
 79        <service
-79-->/Users/eltonburuvuru/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:69:9-72:61
+79-->C:\Users\nyaku\BrainZoneGames_COMP2160_Final_Project\app\src\main\AndroidManifest.xml:69:9-72:61
 80            android:name="com.example.brainzone.BackgroundMusicService"
-80-->/Users/eltonburuvuru/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:70:13-51
+80-->C:\Users\nyaku\BrainZoneGames_COMP2160_Final_Project\app\src\main\AndroidManifest.xml:70:13-51
 81            android:exported="true"
-81-->/Users/eltonburuvuru/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:71:13-36
+81-->C:\Users\nyaku\BrainZoneGames_COMP2160_Final_Project\app\src\main\AndroidManifest.xml:71:13-36
 82            android:foregroundServiceType="mediaPlayback" />
-82-->/Users/eltonburuvuru/Documents/GitHub/BrainZoneGames_COMP2160_Final_Project/app/src/main/AndroidManifest.xml:72:13-58
+82-->C:\Users\nyaku\BrainZoneGames_COMP2160_Final_Project\app\src\main\AndroidManifest.xml:72:13-58
 83
 84        <provider
-84-->[androidx.emoji2:emoji2:1.2.0] /Users/eltonburuvuru/.gradle/caches/transforms-3/d121cbb831bfcedee4bd4dacef3ca9b6/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+84-->[androidx.emoji2:emoji2:1.2.0] C:\Users\nyaku\.gradle\caches\transforms-3\d121cbb831bfcedee4bd4dacef3ca9b6\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
 85            android:name="androidx.startup.InitializationProvider"
-85-->[androidx.emoji2:emoji2:1.2.0] /Users/eltonburuvuru/.gradle/caches/transforms-3/d121cbb831bfcedee4bd4dacef3ca9b6/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+85-->[androidx.emoji2:emoji2:1.2.0] C:\Users\nyaku\.gradle\caches\transforms-3\d121cbb831bfcedee4bd4dacef3ca9b6\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
 86            android:authorities="com.example.brainzone.androidx-startup"
-86-->[androidx.emoji2:emoji2:1.2.0] /Users/eltonburuvuru/.gradle/caches/transforms-3/d121cbb831bfcedee4bd4dacef3ca9b6/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+86-->[androidx.emoji2:emoji2:1.2.0] C:\Users\nyaku\.gradle\caches\transforms-3\d121cbb831bfcedee4bd4dacef3ca9b6\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
 87            android:exported="false" >
-87-->[androidx.emoji2:emoji2:1.2.0] /Users/eltonburuvuru/.gradle/caches/transforms-3/d121cbb831bfcedee4bd4dacef3ca9b6/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+87-->[androidx.emoji2:emoji2:1.2.0] C:\Users\nyaku\.gradle\caches\transforms-3\d121cbb831bfcedee4bd4dacef3ca9b6\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
 88            <meta-data
-88-->[androidx.emoji2:emoji2:1.2.0] /Users/eltonburuvuru/.gradle/caches/transforms-3/d121cbb831bfcedee4bd4dacef3ca9b6/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+88-->[androidx.emoji2:emoji2:1.2.0] C:\Users\nyaku\.gradle\caches\transforms-3\d121cbb831bfcedee4bd4dacef3ca9b6\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
 89                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-89-->[androidx.emoji2:emoji2:1.2.0] /Users/eltonburuvuru/.gradle/caches/transforms-3/d121cbb831bfcedee4bd4dacef3ca9b6/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+89-->[androidx.emoji2:emoji2:1.2.0] C:\Users\nyaku\.gradle\caches\transforms-3\d121cbb831bfcedee4bd4dacef3ca9b6\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
 90                android:value="androidx.startup" />
-90-->[androidx.emoji2:emoji2:1.2.0] /Users/eltonburuvuru/.gradle/caches/transforms-3/d121cbb831bfcedee4bd4dacef3ca9b6/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+90-->[androidx.emoji2:emoji2:1.2.0] C:\Users\nyaku\.gradle\caches\transforms-3\d121cbb831bfcedee4bd4dacef3ca9b6\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
 91            <meta-data
-91-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/eltonburuvuru/.gradle/caches/transforms-3/9ea9e0b2ba026d72c3db5febde415dc6/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+91-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\nyaku\.gradle\caches\transforms-3\9ea9e0b2ba026d72c3db5febde415dc6\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
 92                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-92-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/eltonburuvuru/.gradle/caches/transforms-3/9ea9e0b2ba026d72c3db5febde415dc6/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+92-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\nyaku\.gradle\caches\transforms-3\9ea9e0b2ba026d72c3db5febde415dc6\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
 93                android:value="androidx.startup" />
-93-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/eltonburuvuru/.gradle/caches/transforms-3/9ea9e0b2ba026d72c3db5febde415dc6/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+93-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\nyaku\.gradle\caches\transforms-3\9ea9e0b2ba026d72c3db5febde415dc6\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
 94            <meta-data
-94-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/eltonburuvuru/.gradle/caches/transforms-3/07eeb6960b57fb88826243e43d16a4e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nyaku\.gradle\caches\transforms-3\07eeb6960b57fb88826243e43d16a4e3\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
 95                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-95-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/eltonburuvuru/.gradle/caches/transforms-3/07eeb6960b57fb88826243e43d16a4e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+95-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nyaku\.gradle\caches\transforms-3\07eeb6960b57fb88826243e43d16a4e3\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
 96                android:value="androidx.startup" />
-96-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/eltonburuvuru/.gradle/caches/transforms-3/07eeb6960b57fb88826243e43d16a4e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+96-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nyaku\.gradle\caches\transforms-3\07eeb6960b57fb88826243e43d16a4e3\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
 97        </provider>
 98
 99        <receiver
-99-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/eltonburuvuru/.gradle/caches/transforms-3/07eeb6960b57fb88826243e43d16a4e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+99-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nyaku\.gradle\caches\transforms-3\07eeb6960b57fb88826243e43d16a4e3\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
 100            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-100-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/eltonburuvuru/.gradle/caches/transforms-3/07eeb6960b57fb88826243e43d16a4e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+100-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nyaku\.gradle\caches\transforms-3\07eeb6960b57fb88826243e43d16a4e3\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
 101            android:directBootAware="false"
-101-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/eltonburuvuru/.gradle/caches/transforms-3/07eeb6960b57fb88826243e43d16a4e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nyaku\.gradle\caches\transforms-3\07eeb6960b57fb88826243e43d16a4e3\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
 102            android:enabled="true"
-102-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/eltonburuvuru/.gradle/caches/transforms-3/07eeb6960b57fb88826243e43d16a4e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+102-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nyaku\.gradle\caches\transforms-3\07eeb6960b57fb88826243e43d16a4e3\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
 103            android:exported="true"
-103-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/eltonburuvuru/.gradle/caches/transforms-3/07eeb6960b57fb88826243e43d16a4e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+103-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nyaku\.gradle\caches\transforms-3\07eeb6960b57fb88826243e43d16a4e3\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
 104            android:permission="android.permission.DUMP" >
-104-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/eltonburuvuru/.gradle/caches/transforms-3/07eeb6960b57fb88826243e43d16a4e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nyaku\.gradle\caches\transforms-3\07eeb6960b57fb88826243e43d16a4e3\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
 105            <intent-filter>
-105-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/eltonburuvuru/.gradle/caches/transforms-3/07eeb6960b57fb88826243e43d16a4e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+105-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nyaku\.gradle\caches\transforms-3\07eeb6960b57fb88826243e43d16a4e3\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
 106                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-106-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/eltonburuvuru/.gradle/caches/transforms-3/07eeb6960b57fb88826243e43d16a4e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
-106-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/eltonburuvuru/.gradle/caches/transforms-3/07eeb6960b57fb88826243e43d16a4e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+106-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nyaku\.gradle\caches\transforms-3\07eeb6960b57fb88826243e43d16a4e3\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+106-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nyaku\.gradle\caches\transforms-3\07eeb6960b57fb88826243e43d16a4e3\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
 107            </intent-filter>
 108            <intent-filter>
-108-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/eltonburuvuru/.gradle/caches/transforms-3/07eeb6960b57fb88826243e43d16a4e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+108-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nyaku\.gradle\caches\transforms-3\07eeb6960b57fb88826243e43d16a4e3\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
 109                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-109-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/eltonburuvuru/.gradle/caches/transforms-3/07eeb6960b57fb88826243e43d16a4e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
-109-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/eltonburuvuru/.gradle/caches/transforms-3/07eeb6960b57fb88826243e43d16a4e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+109-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nyaku\.gradle\caches\transforms-3\07eeb6960b57fb88826243e43d16a4e3\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+109-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nyaku\.gradle\caches\transforms-3\07eeb6960b57fb88826243e43d16a4e3\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
 110            </intent-filter>
 111            <intent-filter>
-111-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/eltonburuvuru/.gradle/caches/transforms-3/07eeb6960b57fb88826243e43d16a4e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+111-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nyaku\.gradle\caches\transforms-3\07eeb6960b57fb88826243e43d16a4e3\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
 112                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-112-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/eltonburuvuru/.gradle/caches/transforms-3/07eeb6960b57fb88826243e43d16a4e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
-112-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/eltonburuvuru/.gradle/caches/transforms-3/07eeb6960b57fb88826243e43d16a4e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+112-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nyaku\.gradle\caches\transforms-3\07eeb6960b57fb88826243e43d16a4e3\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+112-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nyaku\.gradle\caches\transforms-3\07eeb6960b57fb88826243e43d16a4e3\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
 113            </intent-filter>
 114            <intent-filter>
-114-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/eltonburuvuru/.gradle/caches/transforms-3/07eeb6960b57fb88826243e43d16a4e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+114-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nyaku\.gradle\caches\transforms-3\07eeb6960b57fb88826243e43d16a4e3\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
 115                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-115-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/eltonburuvuru/.gradle/caches/transforms-3/07eeb6960b57fb88826243e43d16a4e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
-115-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/eltonburuvuru/.gradle/caches/transforms-3/07eeb6960b57fb88826243e43d16a4e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+115-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nyaku\.gradle\caches\transforms-3\07eeb6960b57fb88826243e43d16a4e3\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+115-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nyaku\.gradle\caches\transforms-3\07eeb6960b57fb88826243e43d16a4e3\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
 116            </intent-filter>
 117        </receiver>
 118    </application>

@@ -4,7 +4,7 @@
             "outputFile": "com.example.brainzone.app-mergeDebugResources-30:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/Users/eltonburuvuru/.gradle/caches/transforms-3/68b2f9db80fd5fbadc0f11fe19280caa/transformed/appcompat-1.6.1/res/values-v16/values-v16.xml",
+                    "source": "C:\\Users\\nyaku\\.gradle\\caches\\transforms-3\\68b2f9db80fd5fbadc0f11fe19280caa\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/Users/eltonburuvuru/.gradle/caches/transforms-3/740ae0ea3c31e6cd8edc9f94e7ba0f7e/transformed/core-1.12.0/res/values-v16/values-v16.xml",
+                    "source": "C:\\Users\\nyaku\\.gradle\\caches\\transforms-3\\740ae0ea3c31e6cd8edc9f94e7ba0f7e\\transformed\\core-1.12.0\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
