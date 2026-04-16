@@ -36,7 +36,7 @@ public class Game1Activity extends AppCompatActivity implements ScreenOffReceive
     // ── Views ─────────────────────────────────────────────────────────────────
     private TextView  tvQuestion, tvScore, tvQuestionNum, tvTimer, tvStreak;
     private EditText  etAnswer;
-    private Button    btnSubmit, btnClear;
+    private Button    btnSubmit, btnClear, btnBack;
     private ProgressBar pbTimer;
 
     // ── Game state ────────────────────────────────────────────────────────────
@@ -85,7 +85,9 @@ public class Game1Activity extends AppCompatActivity implements ScreenOffReceive
         btnSubmit    = findViewById(R.id.btnSubmit);
         btnClear     = findViewById(R.id.btnClear);
         pbTimer      = findViewById(R.id.pbTimer);
+        btnBack  = findViewById(R.id.btnBack);
 
+        btnBack.setOnClickListener(v -> confirmQuit());
         sharedPreferences = getSharedPreferences(Constants.PREFS_NAME, MODE_PRIVATE);
 
         // ── Read intent extras (Lecture 8) ────────────────────────────────────
@@ -369,14 +371,15 @@ public class Game1Activity extends AppCompatActivity implements ScreenOffReceive
     @SuppressWarnings("MissingSuperCall")
     @Override
     public void onBackPressed() {
-        cancelTimer();
+        confirmQuit();
+    }
+    private void confirmQuit() {
         new AlertDialog.Builder(this)
-                .setTitle(R.string.dialog_quit_title)
-                .setMessage(R.string.dialog_quit_msg)
-                .setPositiveButton(R.string.btn_yes, (d, w) -> { cancelTimer(); finish();} )
-                .setNegativeButton(R.string.btn_no, (d, w) -> {
-                    if (!gamePaused) startTimer();
-                })
+                .setTitle("Quit")
+                .setMessage("Are you sure you want to exit?")
+                .setPositiveButton("Yes", (d, w) -> finish())
+                .setNegativeButton("No", null)
                 .show();
     }
+
 }

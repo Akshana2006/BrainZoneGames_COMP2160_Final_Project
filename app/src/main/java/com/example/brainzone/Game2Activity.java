@@ -35,24 +35,23 @@ public class Game2Activity extends AppCompatActivity implements ScreenOffReceive
 
     // ── Views ─────────────────────────────────────────────────────────────────
     private RecyclerView rvCards;
-    private TextView     tvMoves, tvTime, tvPairs;
-    private Button       btnBack;
+    private TextView tvMoves, tvTime, tvPairs;
 
     // ── Game state ────────────────────────────────────────────────────────────
-    private List<Card>  cards;
+    private List<Card> cards;
     private CardAdapter cardAdapter;
-    private int         firstFlippedIndex  = -1;
-    private int         secondFlippedIndex = -1;
-    private boolean     isChecking         = false; // Prevent clicks during match check
-    private int         moveCount          = 0;
-    private int         matchedPairs       = 0;
-    private int         totalPairs;
-    private int         gridColumns;
-    private boolean     gamePaused         = false;
+    private int firstFlippedIndex = -1;
+    private int secondFlippedIndex = -1;
+    private boolean isChecking = false; // Prevent clicks during match check
+    private int moveCount = 0;
+    private int matchedPairs = 0;
+    private int totalPairs;
+    private int gridColumns;
+    private boolean gamePaused = false;
 
     // ── Timer (Runnable – Lecture 14) ─────────────────────────────────────────
-    private int     elapsedSeconds = 0;
-    private Handler timerHandler   = new Handler(Looper.getMainLooper());
+    private int elapsedSeconds = 0;
+    private Handler timerHandler = new Handler(Looper.getMainLooper());
     private Runnable timerRunnable;
 
     // ── Difficulty ────────────────────────────────────────────────────────────
@@ -67,11 +66,11 @@ public class Game2Activity extends AppCompatActivity implements ScreenOffReceive
         setContentView(R.layout.activity_game2);
 
         // ── Bind views ────────────────────────────────────────────────────────
-        rvCards  = findViewById(R.id.rvCards);
-        tvMoves  = findViewById(R.id.tvMoves);
-        tvTime   = findViewById(R.id.tvTime);
-        tvPairs  = findViewById(R.id.tvPairs);
-        btnBack  = findViewById(R.id.btnBack);
+        rvCards = findViewById(R.id.rvCards);
+        tvMoves = findViewById(R.id.tvMoves);
+        tvTime = findViewById(R.id.tvTime);
+        tvPairs = findViewById(R.id.tvPairs);
+        Button btnBack = findViewById(R.id.btnBack);
 
         sharedPreferences = getSharedPreferences(Constants.PREFS_NAME, MODE_PRIVATE);
 
@@ -82,15 +81,15 @@ public class Game2Activity extends AppCompatActivity implements ScreenOffReceive
         // ── Configure grid by difficulty ──────────────────────────────────────
         switch (difficulty) {
             case Constants.DIFF_HARD:
-                totalPairs  = 10; // 4×5 = 20 cards
+                totalPairs = 10; // 4×5 = 20 cards
                 gridColumns = 4;
                 break;
             case Constants.DIFF_MEDIUM:
-                totalPairs  = 8;  // 4×4 = 16 cards
+                totalPairs = 8;  // 4×4 = 16 cards
                 gridColumns = 4;
                 break;
             default: // Easy
-                totalPairs  = 6;  // 4×3 = 12 cards
+                totalPairs = 6;  // 4×3 = 12 cards
                 gridColumns = 3;
                 break;
         }
@@ -108,7 +107,9 @@ public class Game2Activity extends AppCompatActivity implements ScreenOffReceive
 
     // ── Card setup ────────────────────────────────────────────────────────────
 
-    /** Creates a shuffled list of paired cards. */
+    /**
+     * Creates a shuffled list of paired cards.
+     */
     private void buildCardList() {
         cards = new ArrayList<>();
         for (int i = 1; i <= totalPairs; i++) {
@@ -118,7 +119,9 @@ public class Game2Activity extends AppCompatActivity implements ScreenOffReceive
         Collections.shuffle(cards); // Randomise positions
     }
 
-    /** Connects the RecyclerView with a GridLayoutManager and CardAdapter (Lecture 11). */
+    /**
+     * Connects the RecyclerView with a GridLayoutManager and CardAdapter (Lecture 11).
+     */
     private void setupRecyclerView() {
         rvCards.setLayoutManager(new GridLayoutManager(this, gridColumns));
         cardAdapter = new CardAdapter(this, cards, this::onCardClicked);
@@ -151,10 +154,12 @@ public class Game2Activity extends AppCompatActivity implements ScreenOffReceive
         }
     }
 
-    /** Checks whether the two flipped cards match. */
+    /**
+     * Checks whether the two flipped cards match.
+     */
     private void checkForMatch() {
         isChecking = true;
-        Card first  = cards.get(firstFlippedIndex);
+        Card first = cards.get(firstFlippedIndex);
         Card second = cards.get(secondFlippedIndex);
 
         if (first.getValue() == second.getValue()) {
@@ -164,9 +169,9 @@ public class Game2Activity extends AppCompatActivity implements ScreenOffReceive
             matchedPairs++;
             cardAdapter.notifyItemChanged(firstFlippedIndex);
             cardAdapter.notifyItemChanged(secondFlippedIndex);
-            firstFlippedIndex  = -1;
+            firstFlippedIndex = -1;
             secondFlippedIndex = -1;
-            isChecking         = false;
+            isChecking = false;
 
             if (matchedPairs == totalPairs) {
                 endGame(); // All pairs found!
@@ -182,9 +187,9 @@ public class Game2Activity extends AppCompatActivity implements ScreenOffReceive
                 cards.get(sIdx).setFaceUp(false);
                 cardAdapter.notifyItemChanged(fIdx);
                 cardAdapter.notifyItemChanged(sIdx);
-                firstFlippedIndex  = -1;
+                firstFlippedIndex = -1;
                 secondFlippedIndex = -1;
-                isChecking         = false;
+                isChecking = false;
             }, 900);
         }
     }
@@ -223,19 +228,19 @@ public class Game2Activity extends AppCompatActivity implements ScreenOffReceive
         stopTimer();
 
         // Score = 1000 - penalty for extra moves - penalty for time
-        int basePairs  = totalPairs;
+        int basePairs = totalPairs;
         int extraMoves = Math.max(0, moveCount - basePairs);
-        int score      = Math.max(0, 1000 - (extraMoves * 10) - (elapsedSeconds * 2));
+        int score = Math.max(0, 1000 - (extraMoves * 10) - (elapsedSeconds * 2));
 
         saveHighScore(moveCount);
         sendGameOverBroadcast(score);
 
         Intent intent = new Intent(this, GameResultActivity.class);
-        intent.putExtra(Constants.EXTRA_GAME_NAME,  Constants.GAME_MEMORY);
-        intent.putExtra(Constants.EXTRA_SCORE,      score);
+        intent.putExtra(Constants.EXTRA_GAME_NAME, Constants.GAME_MEMORY);
+        intent.putExtra(Constants.EXTRA_SCORE, score);
         intent.putExtra(Constants.EXTRA_DIFFICULTY, difficulty);
-        intent.putExtra(Constants.EXTRA_MOVES,      moveCount);
-        intent.putExtra(Constants.EXTRA_TIME,       elapsedSeconds);
+        intent.putExtra(Constants.EXTRA_MOVES, moveCount);
+        intent.putExtra(Constants.EXTRA_TIME, elapsedSeconds);
         startActivity(intent);
         finish();
     }
@@ -244,14 +249,20 @@ public class Game2Activity extends AppCompatActivity implements ScreenOffReceive
     private void saveHighScore(int moves) {
         String key;
         switch (difficulty) {
-            case Constants.DIFF_MEDIUM: key = Constants.KEY_SCORE_MEM_MEDIUM; break;
-            case Constants.DIFF_HARD:   key = Constants.KEY_SCORE_MEM_HARD;   break;
-            default:                    key = Constants.KEY_SCORE_MEM_EASY;   break;
+            case Constants.DIFF_MEDIUM:
+                key = Constants.KEY_SCORE_MEM_MEDIUM;
+                break;
+            case Constants.DIFF_HARD:
+                key = Constants.KEY_SCORE_MEM_HARD;
+                break;
+            default:
+                key = Constants.KEY_SCORE_MEM_EASY;
+                break;
         }
         // For Memory Match, lower moves = better. Store as score for leaderboard.
-        int basePairs  = totalPairs;
+        int basePairs = totalPairs;
         int extraMoves = Math.max(0, moves - basePairs);
-        int score      = Math.max(0, 1000 - (extraMoves * 10) - (elapsedSeconds * 2));
+        int score = Math.max(0, 1000 - (extraMoves * 10) - (elapsedSeconds * 2));
 
         int previous = sharedPreferences.getInt(key, 0);
         if (score > previous) {
@@ -295,7 +306,10 @@ public class Game2Activity extends AppCompatActivity implements ScreenOffReceive
     protected void onDestroy() {
         super.onDestroy();
         stopTimer();
-        try { unregisterReceiver(screenOffReceiver); } catch (Exception ignored) {}
+        try {
+            unregisterReceiver(screenOffReceiver);
+        } catch (Exception ignored) {
+        }
     }
 
     private void confirmQuit() {
@@ -311,6 +325,4 @@ public class Game2Activity extends AppCompatActivity implements ScreenOffReceive
                 .show();
     }
 
-    @Override
-    public void onBackPressed() { confirmQuit(); }
 }

@@ -109,26 +109,28 @@
             android:gravity="center_horizontal">
 
             <!-- Prompt label -->
+
+            <!-- Equation display -->
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/hint_equation"
-                android:textSize="@dimen/text_medium"
-                android:textColor="@color/gray_text"
                 android:layout_marginTop="16dp"
-                android:layout_marginBottom="16dp" />
+                android:layout_marginBottom="16dp"
+                android:text="@string/hint_equation"
+                android:textColor="@color/gray_text"
+                android:textSize="@dimen/text_medium" />
 
-            <!-- Equation display -->
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="250dp"
+                android:layout_height="202dp"
                 android:layout_marginBottom="24dp"
                 app:cardCornerRadius="@dimen/card_corner_radius"
                 app:cardElevation="@dimen/card_elevation">
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="214dp"
                     android:background="@drawable/gradient_bg"
                     android:gravity="center"
                     android:padding="32dp">
@@ -146,19 +148,20 @@
             </androidx.cardview.widget.CardView>
 
             <!-- Answer input (EditText – Lecture 7) -->
+
+            <!-- Submit and Clear row -->
             <EditText
                 android:id="@+id/etAnswer"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/btn_height"
-                android:hint="Enter your answer…"
-                android:textSize="@dimen/text_large"
-                android:inputType="number"
-                android:gravity="center"
+                android:layout_marginBottom="16dp"
                 android:background="@drawable/edittext_border"
+                android:gravity="center"
+                android:hint="Enter your answer…"
+                android:inputType="number"
                 android:padding="12dp"
-                android:layout_marginBottom="16dp" />
+                android:textSize="@dimen/text_large" />
 
-            <!-- Submit and Clear row -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -169,12 +172,12 @@
                     android:id="@+id/btnClear"
                     android:layout_width="0dp"
                     android:layout_height="@dimen/btn_height"
+                    android:layout_marginEnd="8dp"
                     android:layout_weight="1"
+                    android:background="@drawable/btn_secondary"
                     android:text="Clear"
                     android:textColor="@color/purple_primary"
-                    android:textStyle="bold"
-                    android:background="@drawable/btn_secondary"
-                    android:layout_marginEnd="8dp" />
+                    android:textStyle="bold" />
 
                 <Button
                     android:id="@+id/btnSubmit"
@@ -186,7 +189,21 @@
                     android:textStyle="bold"
                     android:background="@drawable/btn_rounded"
                     android:layout_marginStart="8dp" />
+
+
             </LinearLayout>
+            <Button
+                android:id="@+id/btnBack"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/btn_height"
+                android:text="@string/btn_back"
+                android:textColor="@color/purple_primary"
+                android:textSize="@dimen/text_medium"
+                android:textStyle="bold"
+                android:background="@drawable/btn_secondary"
+                android:layout_margin="@dimen/screen_padding" />
+
         </LinearLayout>
+
     </ScrollView>
 </LinearLayout>

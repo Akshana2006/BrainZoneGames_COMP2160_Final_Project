@@ -206,6 +206,16 @@
                     android:background="@drawable/btn_rounded"
                     android:layout_marginStart="8dp" />
             </LinearLayout>
+            <Button
+                android:id="@+id/btnBack"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/btn_height"
+                android:text="@string/btn_back"
+                android:textColor="@color/purple_primary"
+                android:textSize="@dimen/text_medium"
+                android:textStyle="bold"
+                android:background="@drawable/btn_secondary"
+                android:layout_margin="@dimen/screen_padding" />
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
